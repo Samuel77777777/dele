@@ -1,15 +1,45 @@
 import { styled } from "styled-components";
+import { Link } from "react-router-dom";
+import { useState } from "react";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Sidebar from "./Sidebar";
 
 const Navbar = () => {
+  const [showSidebar, setShowSidebar] = useState(false);
+
+  const handleSidebarToggle = () => {
+    setShowSidebar(!showSidebar);
+  };
+
   return (
     <Div>
       <nav>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Academics</li>
-          <li>Contact</li>
+          <Link to="/" className="link">
+            Home
+          </Link>
+          <Link to="/about" className="link">
+            About
+          </Link>
+          <Link className="link">Academics </Link>
+          <Link to="/contact" className="link">
+            Contact
+          </Link>
         </ul>
+
+        <div className="sid">
+          <div onClick={handleSidebarToggle} className="side">
+            <FontAwesomeIcon
+              icon={showSidebar ? faTimes : faBars}
+              color="white"
+              className="icon"
+            />
+          </div>
+
+          {showSidebar && <Sidebar />}
+        </div>
       </nav>
     </Div>
   );
@@ -26,7 +56,7 @@ const Div = styled.div`
     flex-wrap: wrap;
     margin: 0 auto;
   }
-  li {
+  .link {
     color: #faff00;
     font-family: "Baloo Bhai 2", cursive;
     font-size: 24px;
@@ -40,5 +70,31 @@ const Div = styled.div`
     outline: none;
     background: transparent;
     cursor: pointer;
+    text-decoration: none;
+  }
+
+  .side {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    ul {
+      display: none;
+    }
+
+    li {
+      display: none;
+    }
+
+    .side {
+      display: block;
+      text-align: right;
+      margin-right: 5px;
+      padding: 10px;
+    }
+
+    .icon {
+      font-size: 30px;
+    }
   }
 `;

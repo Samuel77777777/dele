@@ -6,6 +6,8 @@ import Canteen from "./Modals/Canteen";
 import SchoolResource from "./Modals/SchoolResource";
 import Faq from "./Modals/Faq";
 import Curriculmn from "./Modals/Curriculumn";
+import Slider from "./Slider";
+import Footer from "./Footer";
 
 const HomePage = () => {
   return (
@@ -66,17 +68,57 @@ const HomePage = () => {
       </div>
       <br /> <br /> <br />
       <div className="curri">
-        <img src="curri.png" alt="" />
+        <img src="cur.png" alt="" />
       </div>
+      <div className="slid">
+        <Slider />
+      </div>
+      <div className="sec-4">
+        <p className="t1">
+          Dele Preparatory School and Dele Peddle International High School{" "}
+        </p>
+
+        <p className="t2">
+          OPEN TO PARENTS & GUESTS <br /> Mondays - Thursdays 8:45am - 3:00pm{" "}
+          <br /> Fridays 8:45am - 2:30pm <br /> <br /> PUPILS HOURS <br />{" "}
+          Mondays - Thursdays 7:00am - 3:30pm <br /> Fridays 7:00 - 2:30pm{" "}
+          <br /> <br />
+          GENERAL INFORMATION All Visitors are Kindly Asked To Sign In At The
+          Security Post & Wait For Further Instructions Before Proceeding Into
+          The School Compound. We Apologize For Any Inconvenience{" "}
+        </p>
+      </div>
+      <div className="icons">
+        <div className="icon1">
+          <img src="icon1.png" alt="" />
+          <h2>40+</h2>
+          <p>Years of Excellence</p>
+        </div>
+        <div className="icon1">
+          <img src="icon2.png" alt="" />
+          <h2>500+</h2>
+          <p>Number of Students</p>
+        </div>
+        <div className="icon1">
+          <img src="icon3.png" alt="" />
+          <h2>70</h2>
+          <p>Teacher and Faculty</p>
+        </div>
+      </div>
+      <Footer />
     </Div>
   );
 };
 
 export default HomePage;
 const Div = styled.div`
+overflow:hidden;
+width:100%;
+
+
 .section{
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.60) 4.35%, rgba(255, 255, 255, 0.60) 10.00%, rgba(0, 0, 0, 0.00) 48.69%), linear-gradient(184deg, #01263D 0%, rgba(0, 0, 0, 0.00) 40.00%),  url('Main.png');
-  height:600px;
+  height:700px;
 background-size:cover;
   background-repeat:no-repeat;
 }
@@ -84,7 +126,7 @@ background-size:cover;
 .head{
   background: linear-gradient(180deg, #01263D 10.00%, rgba(0, 0, 0, 0.00) 100%);#
   width:100%;
-  height:600px;
+  height:700px;
 }
 
 
@@ -163,8 +205,6 @@ cursor:pointer;
 
 
 
-
-
 color: #FAFF00;
 font-family: Roboto;
 font-size: 17px;
@@ -185,8 +225,13 @@ text-transform: uppercase;
 }
 
 .info{
+padding-top:300px;
   justify-content:center;
   text-align:center;
+  align-items:center;
+background: linear-gradient(180deg, #FFF 30.00%, rgba(0, 0, 0, 0.00) 100%);
+  max-width: 1920px;
+height: 800px;
 }
 
 
@@ -205,6 +250,7 @@ display:flex;
 justify-content:center;
 gap:10px;
 margin-bottom:10px;
+
 }
 
 .info2{
@@ -259,13 +305,211 @@ text-transform: uppercase;
 
 
 .curri{
-  // opacity: 0.07999999821186066;
+  width:100%;
+}
+.curri img{
+  objet-fit:cover;
+  width:100%;
+}
 
+
+.slid{
+background: linear-gradient(0deg, #FFF 0%, #01263D 100%);
+display: flex;
+max-width: 1920px;
+max-height: 900px;
+padding: 120px 0px 110px 0px;
+border:1px solid black;
+}
+
+
+.sec-4{
+background:  linear-gradient(180deg, rgba(0, 0, 0, 0.83) 50%, #01263D 100%),url("m3.png");  
+max-width: 1920px;
+height: 1000px;
+background-repeat:no-repeat;
+background-size:cover;
+color:white;
+display:flex;
+padding-top:50px;
+justify-content:center;
+align-items:center;
+gap:20px;
+
+
+}
+.t1{
+
+max-width: 842px;
+
+justify-content: center;
+
+color: #228B22;
+font-family: Fuzzy Bubbles;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+}
+
+.t2{
+
+max-width: 568px;
+
+
+color: #FAFF00;
+font-family: "Baloo Bhai", cursive;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+
+
+}
+
+.icons{
+background: linear-gradient(180deg, #01263D 0%, rgba(1, 38, 61, 0.93) 50%, #000615 100%);
+
+max-width: 1920px;
+height: 430.78px;
+justify-content:center;
+display:flex;
+gap:40px;
+color:white;
+align-items:center;
+}
+
+.icon1{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
+}
+
+.icon1 h2{
+  color: #FFF;
+text-align: center;
+font-family: Lato;
+font-size: 28px;
+font-style: normal;
+font-weight: 900;
+margin:0;
+}
+
+
+.icon1 p{
+  color: #FFF;
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+margin:0;
+}
+
+.icon1 img{
+width:41px;
+height:40px;
+object-fit:contain;
 
 }
 
 
 
+
+
+
+
+@media (max-width:768px){
+.logo1{
+  display:none;
+}
+.logo2{
+    position:absolute;
+    right:130px;
+    bottom:60px;
+      width:120px;
+  height:120px;
+}
+
+.let{
+    width:100%;
+}
+
+
+
+.info{
+  display:block;
+  margin-top:0px;
+  padding-top:20px;
+  height:auto;
+}
+
+.info1{
+  display:block;
+   gap:20px;
+
+   align-items:center;
+   padding:0;
+}
+
+
+.info2{
+  display:block;
+   gap:20px;
+
+   align-items:center;
+   padding:0;
+}
+
+
+.sec{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:0;
+  width:100%;
+   margin-top:200px;
+}
+
+.res{
+  justify-content:center;
+  margin:10px auto;
+  
+}
+
+
+  .slid{
+background: linear-gradient(0deg, #FFF 0%, #01263D 100%);
+display: flex;
+padding: 120px 0px 110px 0px;
+border:1px solid black;
+margin:0;
+}
+.sec-4{
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  border:none;
+
+
+}
+
+.t1{
+  font-size:40px ;
+}
+
+.t2{
+  font-size:20px;
+}
+
+.icons{
+  gap:2px;
+  display:flex;
+
+}
+
+
+}
 
 
 `;
