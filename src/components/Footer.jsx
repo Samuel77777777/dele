@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <Div>
       <div className="foot1">
-        <img src="logo2.png" alt="" />
+        <img src="logo2.png" alt="" className="logo11" />
 
         <div className="contact">
           <h1 className="contact-head">Contact Us</h1>
@@ -30,7 +30,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <img src="logo1.png" alt="" />
+        <img src="logo1.png" alt="" className="logo12" />
       </div>
 
       <div className="foot2">
@@ -61,7 +61,11 @@ const Div = styled.div`
     gap: 100px;
   }
 
-  .foot1 img {
+  .logo11 {
+    width: 250px;
+    height: 250px;
+  }
+  .logo12 {
     width: 250px;
     height: 250px;
   }
@@ -111,7 +115,7 @@ const Div = styled.div`
   .sec3 {
     color: #faff00;
     text-align: center;
-    font-family: "Baloo Bhai 2", cursive;
+    font-family: "Baloo Bhai 2", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -137,11 +141,33 @@ const Div = styled.div`
   }
 
   @media (max-width: 768px) {
-    .foot1 img {
-      display: none;
-    }
     .foot2 {
       padding: 0;
+    }
+
+    .foot1 {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      height: 700px;
+    }
+
+    .logo11 {
+      width: 70px;
+      height: 70px;
+      right: 20px;
+      top: 40px;
+      object-fit: cover;
+      position: absolute;
+    }
+
+    .logo12 {
+      left: 20px;
+      width: 70px;
+      height: 70px;
+      top: 40px;
+      object-fit: cover;
+      position: absolute;
     }
   }
 `;

@@ -35,7 +35,7 @@ const HomePage = () => {
         </div>
       </div>
       <div className="info">
-        <h1 className="info-head">Registration, Resources & More</h1>
+        <h1 className="info-head">Resources</h1>
 
         <div className="info1">
           <div className="res">
