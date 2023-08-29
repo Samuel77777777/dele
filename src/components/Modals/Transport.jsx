@@ -23,7 +23,7 @@ const Transport = () => {
           <div className="reg-modal" onClick={(e) => e.stopPropagation()}>
             <div className="top">
               {" "}
-              <h6>Registration</h6>
+              <h6>Transportation</h6>
             </div>
 
             <p className="tts">

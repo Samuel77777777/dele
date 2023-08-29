@@ -29,7 +29,7 @@
   .top h6 {
     color: #fff;
     text-align: center;
-    font-family: "Baloo Bhai", cursive;
+    font-family: "Baloo Bhai", sans-serif;
     font-size: 55px;
     font-style: normal;
     font-weight: 400;
@@ -41,10 +41,10 @@
   .tts {
     justify-content: center;
     color: #000;
-    font-family: "Baloo Bhai", cursive;
+    font-family: "Baloo Bhai", sans-serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 500;
     line-height: 45px;
     padding: 0 20px;
     text-align: center;

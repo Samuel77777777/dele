@@ -86,9 +86,9 @@ const HomePage = () => {
           <br /> Fridays 8:45am - 2:30pm <br /> <br /> PUPILS HOURS <br />{" "}
           Mondays - Thursdays 7:00am - 3:30pm <br /> Fridays 7:00 - 2:30pm{" "}
           <br /> <br />
-          GENERAL INFORMATION All Visitors are Kindly Asked To Sign In At The
-          Security Post & Wait For Further Instructions Before Proceeding Into
-          The School Compound. We Apologize For Any Inconvenience{" "}
+          GENERAL INFORMATION <br /> All Visitors are Kindly Asked To Sign In At
+          The Security Post & Wait For Further Instructions Before Proceeding
+          Into The School Compound. We Apologize For Any Inconvenience{" "}
         </p>
       </div>
       <div className="icons">
@@ -346,8 +346,8 @@ color: #FAFF00;
 font-family: "Baloo Bhai", sans-serif;
 font-size: 24px;
 font-style: normal;
-font-weight: 400;
-
+font-weight: 550;
+line-height: 28.8px;
 
 }
 
@@ -404,16 +404,24 @@ object-fit:contain;
 
 
 @media (max-width:768px){
-.logo1{
-  display:none;
-}
+
 .logo2{
     position:absolute;
-    right:130px;
-    bottom:60px;
-      width:120px;
+    right:50px;
+   bottom:60px;
+  width:120px;
   height:120px;
 }
+
+.logo1{
+    position:absolute;
+    left:50px;
+   bottom:60px;
+  width:120px;
+  height:120px;
+  margin-right:20px;
+}
+
 
 .let{
     width:100%;
@@ -453,7 +461,9 @@ object-fit:contain;
   align-items:center;
   padding:0;
   width:100%;
-   margin-top:200px;
+  margin-top:200px;
+  position:relative;
+
 }
 
 .res{
@@ -491,6 +501,14 @@ margin:0;
   gap:2px;
   display:flex;
 
+}
+
+.info-head{
+  font-size:45px;
+}
+
+.wisee{
+  font-size:20px;
 }
 
 

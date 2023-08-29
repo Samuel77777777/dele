@@ -14,13 +14,13 @@ const Contact = () => {
           <Navbar />
           <br /> <br />
           <div className="sec">
-            <img src="logo1.png" alt="" />
+            <img src="logo1.png" alt="" className="logo1" />
 
             <h1>
               Contact Us <hr />
             </h1>
 
-            <img src="logo2.png" alt="" />
+            <img src="logo2.png" alt="" className="logo2" />
           </div>
         </div>
       </div>
@@ -269,11 +269,43 @@ iframe{
 
 
 @media(max-width:768px){
+
+
+
+     .sec{
+      position:relative;
+      display:flex;
+      flex-direction:column;
+      
+    }
+
+  .logo1{
+    position:absolute;
+    top:50px;
+    left:60px;
+      width:120px;
+  height:120px;
+    }
+.logo2{
+    position:absolute;
+    top:50px;
+    right:60px;
+      width:120px;
+  height:120px;
+    }
+
+    .sec h1{
+      position:absolute;
+      top:150px;
+         font-size:45px;
+    }
+
+
+
+
+
       overflow:hidden;
-  .sec img{
-    display:none;
-    
-  }
+
   .get{
     display:flex;
     flex-direction:column;
