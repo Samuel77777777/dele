@@ -1,4 +1,7 @@
 import { styled } from "styled-components";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -28,15 +31,18 @@ const Contact = () => {
 
           <h3 className="wise">
             {" "}
-            `` Through high expectations and a positive learning environment,
-            the school, parents and community are responsible partners in the
+            ``Through high expectations and a positive learning environment, the
+            school, parents and community are responsible partners in the
             educational and social growth of its students.``
           </h3>
 
           <div className="number">
             <h2>Number</h2>
 
-            <p>Phone : +232 99 005 251</p>
+            <p className="icon-text">
+              <FontAwesomeIcon icon={faPhone} />
+              <span>+232 99 005 251 </span>
+            </p>
 
             <p>
               deleprepschool@yahoo.co.uk <br />
@@ -47,7 +53,10 @@ const Contact = () => {
           </div>
 
           <h2>Location</h2>
-          <p>Icon : Reservation View, Allen Town (Old Road)</p>
+          <p className="icon-text">
+            <FontAwesomeIcon icon={faLocationDot} />
+            <span>Reservation View, Allen Town (Old Road) </span>
+          </p>
 
           <h2>Office Hours</h2>
 
@@ -116,7 +125,7 @@ background-size:cover;
 
 color: #70FF00;
 text-align: center;
-font-family: 'Fuzzy Bubbles', cursive;
+font-family: 'Fuzzy Bubbles', sans-serif;
 font-size: 65px;
 font-style: normal;
 font-weight: 700;
@@ -136,6 +145,13 @@ color:white;
 
 }
 
+
+.icon-text{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
 .get1 {
   display: flex;
 max-width: 570px;
@@ -147,7 +163,7 @@ align-items: flex-start;
 
 .get1 h1{
   color: #FFF;
-font-family: 'Baloo Bhai', cursive;
+font-family: 'Baloo Bhai', sans-serif;
 font-size: 40px;
 font-style: normal;
 font-weight: 400;
@@ -158,16 +174,13 @@ line-height: 48px;
 
 .wise{
   color: #FFF;
-font-family: 'Baloo Bhai', cursive;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 24px
+  font: 700 18px/24px "Baloo Bhai", sans-serif;
+
 }
 
 h2{
   color: #FFF;
-font-family: 'Baloo Bhai', cursive;
+font-family: 'Baloo Bhai', sans-serif;
 font-size: 28px;
 font-style: normal;
 font-weight: 400;
@@ -178,7 +191,7 @@ letter-spacing: 2.5px;
 
  p{
   color: #FFF;
-font-family: 'Baloo Bhai', cursive;
+font-family: 'Baloo Bhai', sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -188,7 +201,7 @@ line-height: 28.8px;
 
 .las{
   color: #FAFF00;
-font-family: 'Baloo Bhai', cursive;
+font-family: 'Baloo Bhai', sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -201,7 +214,7 @@ line-height: 28.8px;
 }
 .get2 h1{
   color: #FFF;
-font-family: 'Baloo Bhai', cursive;
+font-family: 'Baloo Bhai', sans-serif;
 font-size: 40px;
 font-style: normal;
 font-weight: 400;
@@ -213,7 +226,7 @@ form input{
 border: 1px solid #DDD;
 background: #FAFAFA;
 color: #757575;
-font-family: 'Baloo Bhai', cursive;
+font-family: 'Baloo Bhai', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;

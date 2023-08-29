@@ -32,8 +32,9 @@ const Div = styled.div`
   color: black;
 
   aside {
+    margin-bottom: 400px;
     background: linear-gradient(0deg, #fff 0%, #01263d 100%);
-    width: 400px;
+    width: 350px;
     height: 100vh;
     right: 0%;
     box-shadow: 10px -5px 47px 0px rgba(0, 0, 0, 0);
@@ -54,7 +55,7 @@ const Div = styled.div`
       font-size: 24px;
       font-style: normal;
       font-weight: 400;
-      line-height: 70px;
+      line-height: 20px;
       text-decoration: none;
       list-style: none;
       margin: 10px;

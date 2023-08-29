@@ -27,25 +27,8 @@ const Transport = () => {
             </div>
 
             <p className="tts">
-              Daycare to Year 1 (nursery 1) starts May 2023. you are required to
-              bring original birth certificate and original Under 5 Card. You
-              are also required to bring your printed NIN. <br /> <br />
-              Class 1 to Class 5- Registration starts July 2023. You need to
-              bring the original report card from previous school, birth
-              certificate and printed NIN <br /> <br />
-              JSS1- Bring NPSE results not later 3 weeks after results are out.
-              Bring WAEC printed results from scratch card. Bring original class
-              5 & 6 report card, birth certificate and printed NIN. <br />{" "}
-              <br />
-              JSS2- Registration starts July 2023. Bring previous school JSS1
-              report card, original copy of NIN <br /> <br />
-              SS1- Bring BECE result not later 3 weeks after results are out.
-              Bring printed BECE results from scratch card. Bring original class
-              5 & 6 report card, birth certificate and printed NIN. <br />{" "}
-              <br />
-              SS2- Registration starts July 2023. Required to bring CASS number
-              (this is mandatory), previous school report card, birth
-              certificate and printed NIN. <br /> <br />
+              Optional. 4 buses running. Route - Upgun to the school and Rokel
+              to the school
             </p>
           </div>
         </div>

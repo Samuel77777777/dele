@@ -5,7 +5,7 @@ import Footer from "./Footer";
 const About = () => {
   return (
     <Div>
-   <div className="section">
+      <div className="section">
         <div className="head">
           <Navbar />
           <br /> <br />
@@ -175,11 +175,8 @@ text-transform: uppercase;
 
   .history h1 {
     color: #800020;
-  font-family: 'Fuzzy Bubbles', cursive;
-    font-size: 65px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 97.5px;
+    font: 700 65px/97.5px "Fuzzy Bubbles", sans-serif;
+ 
   }
 
   .history p {
@@ -192,11 +189,8 @@ text-transform: uppercase;
     flex-wrap: wrap;
 
     color: #000615;
-    font-family: "Baloo Bhai 2", cursive;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28.8px;
+  font: 400 20px/28.8px "Baloo Bhai 2", sans-serif;
+
   }
 
   .vision {
@@ -212,7 +206,7 @@ text-transform: uppercase;
 
   .vision p {
     color: #fff;
-    font-family: "Baloo Bhai 2", cursive;
+    font-family: "Baloo Bhai 2", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -222,7 +216,7 @@ text-transform: uppercase;
 
   .vision h1 {
     color: #faff00;
-   font-family: 'Fuzzy Bubbles', cursive;
+   font-family: 'Fuzzy Bubbles', sans-serif;
     font-size: 65px;
     font-style: normal;
     font-weight: 700;
@@ -240,7 +234,7 @@ text-transform: uppercase;
 
   .mission p {
     color: #000;
-    font-family: "Baloo Bhai 2", cursive;
+    font-family: "Baloo Bhai 2", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -250,7 +244,7 @@ text-transform: uppercase;
 
   .mission h1 {
     color: #800020;
-  font-family: 'Fuzzy Bubbles', cursive;
+  font-family: 'Fuzzy Bubbles', sans-serif;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
@@ -258,7 +252,6 @@ text-transform: uppercase;
 
   .extra {
     display: flex;
-
     max-width: 1920px;
     padding: 100px 390px;
     justify-content: center;
@@ -268,7 +261,7 @@ text-transform: uppercase;
 
   .text {
     color: #000615;
-    font-family: "Baloo Bhai 2", cursive;
+    font-family: "Baloo Bhai 2", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -280,14 +273,14 @@ text-transform: uppercase;
 
   .third {
     color: #000615;
-    font-family: "Baloo Bhai 2", cursive;
+    font-family: "Baloo Bhai 2", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
   }
   .extra h1 {
     color: #800020;
-  font-family: 'Fuzzy Bubbles', cursive;
+  font-family: 'Fuzzy Bubbles', sans-serif;
     font-size: 65px;
     font-style: normal;
     font-weight: 700;

@@ -8,6 +8,7 @@ import Faq from "./Modals/Faq";
 import Curriculmn from "./Modals/Curriculumn";
 import Slider from "./Slider";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -27,7 +28,9 @@ const HomePage = () => {
             <span className="wisee">
               A positive learning environment through high expectations.
             </span>
-            <span className="abt">About us</span>
+            <Link to="/about" className="abt">
+              About us
+            </Link>
           </div>
         </div>
       </div>
@@ -141,20 +144,20 @@ background-size:cover;
 }
 
 
-.sec h1{
-  color: #800020;
-  text-align: center;
-  font: 700 50px/50px "Fuzzy Bubbles", sans-serif;
-  text-transform: uppercase;
-  position: relative;
-  width: 1498px;
-  height: 191px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin:0;
+// .sec h1{
+//   color: #800020;
+//   text-align: center;
+//   font: 700 50px/50px "Fuzzy Bubbles", sans-serif;
+//   text-transform: uppercase;
+//   position: relative;
+//   width: 1498px;
+//   height: 191px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   margin:0;
 
-}
+// }
 
 .logo1{
     position:absolute;
@@ -180,7 +183,7 @@ background-size:cover;
 
 .wisee{
     color: #FFF;
-font-family:' Bhoo loo Bhai', cursive;
+font-family:' Bhoo loo Bhai', sans-serif;
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
@@ -202,11 +205,12 @@ text-align:center;
 justify-content:center;
 margin:0 auto;
 cursor:pointer;
+text-decoration:none;
 
 
 
 color: #FAFF00;
-font-family: Roboto;
+font-family: "Baloo Bhai", sans-serif;
 font-size: 17px;
 font-style: normal;
 font-weight: 400;
@@ -238,11 +242,7 @@ height: 800px;
 .info-head{
   color: #228B22;
 text-align: center;
-font-family: Fuzzy Bubbles;
-font-size: 45px;
-font-style: normal;
-font-weight: 700;
-line-height: 97.5px; 
+  font: 700 55px/97.5px "Fuzzy Bubbles", sans-serif;
 }
 
 .info1{
@@ -277,15 +277,9 @@ padding: 0px 13.31px 1.8px 13px;
 align-items: flex-start;
 border: 1px solid rgba(255, 255, 255, 0.25);
 
-
-
 color: rgba(255, 255, 255, 0.25);
 text-align: center;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28.8px; 
+  font: 400 16px/28.8px "Baloo Bhai", sans-serif;
 cursor:pointer;
 }
 
@@ -293,11 +287,7 @@ cursor:pointer;
 .res h1{
   color: #FFF;
 text-align: center;
-font-family: 'Baloo Bhai', cursive;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; 
+  font: 600 18px/26px "Baloo Bhai", sans-serif;
 text-transform: uppercase;
 }
 
@@ -335,29 +325,25 @@ padding-top:50px;
 justify-content:center;
 align-items:center;
 gap:20px;
+padding-left:20px;
+padding-right:20px;
 
 
 }
 .t1{
-
 max-width: 842px;
-
 justify-content: center;
-
 color: #228B22;
-font-family: Fuzzy Bubbles;
+font-family: "Fuzzy Bubbles", sans-serif;
 font-size: 65px;
 font-style: normal;
 font-weight: 700;
 }
 
 .t2{
-
 max-width: 568px;
-
-
 color: #FAFF00;
-font-family: "Baloo Bhai", cursive;
+font-family: "Baloo Bhai", sans-serif;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
@@ -367,7 +353,6 @@ font-weight: 400;
 
 .icons{
 background: linear-gradient(180deg, #01263D 0%, rgba(1, 38, 61, 0.93) 50%, #000615 100%);
-
 max-width: 1920px;
 height: 430.78px;
 justify-content:center;
@@ -387,7 +372,7 @@ align-items:center;
 .icon1 h2{
   color: #FFF;
 text-align: center;
-font-family: Lato;
+font-family: "Baloo Bhai", sans-serif;
 font-size: 28px;
 font-style: normal;
 font-weight: 900;
@@ -398,7 +383,7 @@ margin:0;
 .icon1 p{
   color: #FFF;
 text-align: center;
-font-family: Lato;
+font-family: "Baloo Bhai", sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;

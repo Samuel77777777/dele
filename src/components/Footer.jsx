@@ -122,7 +122,7 @@ const Div = styled.div`
     display: flex;
     max-width: 1920px;
     min-height: 80px;
-    padding: 24.6px 360px 25.6px 360px;
+    // padding: 24.6px 360px 25.6px 360px;
     justify-content: center;
     background: #000615;
   }
