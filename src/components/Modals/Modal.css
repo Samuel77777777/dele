@@ -122,3 +122,26 @@ cursor:pointer;
 		transform: scale(1);
 	}
 }
+
+
+@media (max-width:768px) {
+
+
+    .top {
+  
+  
+  }
+
+
+  .top h6{
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .tts{
+    font-size: 19px;
+
+  }
+  
+}

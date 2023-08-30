@@ -282,30 +282,28 @@ iframe{
 
 
 @media(max-width:768px){
-
-
-
      .sec{
-      position:relative;
-      display:flex;
-      flex-direction:column;
-      
-    }
+  position:relative;
+  display:flex;
+  flex-direction:column;
+}
 
-  .logo1{
-    position:absolute;
-    top:50px;
-    left:60px;
-      width:120px;
+.logo1{
+  position:absolute;
+  top:50px;
+  left:40px;
+  width:120px;
   height:120px;
-    }
+}
+
+
 .logo2{
-    position:absolute;
-    top:50px;
-    right:60px;
-      width:120px;
+  position:absolute;
+  top:50px;
+  right:40px;
+  width:120px;
   height:120px;
-    }
+}
 
     .sec h1{
       position:absolute;
@@ -319,7 +317,7 @@ iframe{
 
       overflow:hidden;
 
-  .get{
+  .contact-me{
     display:flex;
     flex-direction:column;
     padding:10px;

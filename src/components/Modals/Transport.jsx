@@ -21,7 +21,7 @@ const Transport = () => {
       {show && (
         <div className="opacity" onClick={hideModal}>
           <div className="reg-modal" onClick={(e) => e.stopPropagation()}>
-            <div className="top">
+            <div className="modal-text">
               {" "}
               <h6>Transportation</h6>
             </div>

@@ -331,12 +331,12 @@ border:1px solid black;
 .section-4{
 background:  linear-gradient(180deg, rgba(0, 0, 0, 0.83) 50%, #01263D 100%),url("m3.png");  
 max-width: 1920px;
-height: 1000px;
+height: 600px;
 background-repeat:no-repeat;
 background-size:cover;
 color:white;
 display:flex;
-padding-top:50px;
+padding-top:20px;
 justify-content:center;
 align-items:center;
 gap:20px;
@@ -369,7 +369,7 @@ line-height: 28.8px;
 .icons{
 background: linear-gradient(180deg, #01263D 0%, rgba(1, 38, 61, 0.93) 50%, #000615 100%);
 max-width: 1920px;
-height: 430.78px;
+height: 300px;
 justify-content:center;
 display:flex;
 gap:40px;
@@ -500,6 +500,7 @@ margin:0;
   flex-direction:column;
   text-align:center;
   border:none;
+  height:auto;
 
 
 }
