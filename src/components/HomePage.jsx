@@ -68,7 +68,7 @@ const HomePage = () => {
           </div>
 
           <div className="resource-card">
-            <h1>School Currriculum</h1>
+            <h1>Notice Board</h1>
             <Curriculmn />
           </div>
         </div>

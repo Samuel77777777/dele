@@ -12,18 +12,6 @@ const Footer = () => {
         <div className="contact">
           <h1 className="contact-head">Contact Us</h1>
 
-          <div className="sec1">
-            <p>
-              <span className="sec1-text"> Office Hours </span> <br />
-              <span className=""> OPEN TO PARENT & GUEST </span> <br />
-              Mondays- Thursday 8:45am - 3:00pm <br />
-              Fridays:8:45am -2:30pm <br /> <br />
-              Pupils HOURS <br />
-              Mondays-Thursday 7:00am - 3:30pm <br />
-              Friday 7:00 - 2:30pm
-            </p>
-          </div>
-
           <div className="sec3">
             <p>
               <FontAwesomeIcon icon={faPhone} /> : 232 99 005 251 <br />
@@ -61,8 +49,7 @@ const Div = styled.div`
         rgba(0, 6, 21, 0.9) 0%
       ),
       url("footer.png"), lightgray 0px -369.456px / 100% 205.861% no-repeat;
-    height: 500px;
-    height: 700px;
+    height: 511px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,18 +57,17 @@ const Div = styled.div`
   }
 
   .logo11 {
-    width: 250px;
-    height: 250px;
+    width: 208px;
+    height: 209px;
   }
   .logo12 {
-    width: 250px;
-    height: 250px;
+    width: 208px;
+    height: 209px;
   }
 
   .contact {
     display: flex;
-    width: 366px;
-    height: 567px;
+
     flex-direction: column;
     align-items: center;
     gap: 25px;
@@ -99,15 +85,15 @@ const Div = styled.div`
     line-height: 36px;
     letter-spacing: 2.5px;
   }
-  .sec1 {
-    color: #800020;
-    text-align: center;
-    font-family: "Baloo Bhai 2", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 28.8px;
-  }
+  // .sec1 {
+  //   color: #800020;
+  //   text-align: center;
+  //   font-family: "Baloo Bhai 2", sans-serif;
+  //   font-size: 20px;
+  //   font-style: normal;
+  //   font-weight: 600;
+  //   line-height: 28.8px;
+  // }
 
   .sec1-text {
     color: #800020;

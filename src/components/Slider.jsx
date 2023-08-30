@@ -4,10 +4,10 @@ import { styled } from "styled-components";
 
 const Slider = () => {
   const images = [
-    {
-      original: "m2.png",
-      thumbnail: "thumb.png",
-    },
+    // {
+    //   // original: "m2.png",
+    //   thumbnail: "thumb.png",
+    // },
     {
       original: "m1.png",
       thumbnail: "thumb1.png",
@@ -20,10 +20,10 @@ const Slider = () => {
       original: "m4.png",
       thumbnail: "thumb3.png",
     },
-    {
-      original: "m2.png",
-      thumbnail: "thumb.png",
-    },
+    // {
+    //   original: "m2.png",
+    //   thumbnail: "thumb.png",
+    // },
     {
       original: "m1.png",
       thumbnail: "thumb1.png",
@@ -37,9 +37,21 @@ const Slider = () => {
       thumbnail: "thumb3.png",
     },
 
+    // {
+    //   original: "m2.png",
+    //   thumbnail: "thumb.png",
+    // },
     {
-      original: "m2.png",
-      thumbnail: "thumb.png",
+      original: "m1.png",
+      thumbnail: "thumb1.png",
+    },
+    {
+      original: "m3.png",
+      thumbnail: "thumb2.png",
+    },
+    {
+      original: "m4.png",
+      thumbnail: "thumb3.png",
     },
     {
       original: "m1.png",

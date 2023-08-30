@@ -17,7 +17,8 @@
   .top {
     background-color: #800020;
     width: 100%;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
     align-items: center;
     justify-content: center;
     height: 100px;

@@ -73,7 +73,7 @@ const About = () => {
       </div>
 
       <div className="vision">
-        <h1>Motto</h1>
+        <h1>Mottos</h1>
 
         <p>
           Primary - Never despair <br /> Secondary - Summoning the human spirit
@@ -218,7 +218,8 @@ text-transform: uppercase;
     font-style: normal;
     font-weight: 400;
     line-height: 28.8px;
-    max-width: 612px;
+    max-width: 450px;
+    border:1px solid blue;
   }
 
   .vision h1 {
@@ -227,16 +228,18 @@ text-transform: uppercase;
     font-size: 65px;
     font-style: normal;
     font-weight: 700;
+    border: solid blue;
   }
 
   .mission {
-    margin-top: 120px;
-    height: 420px;
+       margin-top: 50px;
+    height: 200px;
     display: flex;
     color: white;
     justify-content: center;
     align-items: center;
     gap: 227px;
+    
   }
 
   .mission p {
@@ -246,7 +249,8 @@ text-transform: uppercase;
     font-style: normal;
     font-weight: 400;
     line-height: 28.8px;
-    max-width: 570px;
+    max-width: 400px;
+
   }
 
   .mission h1 {
@@ -255,6 +259,9 @@ text-transform: uppercase;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
+    border:1px solid blue;
+    margin-right:100px;
+    
   }
 
   .extra {
