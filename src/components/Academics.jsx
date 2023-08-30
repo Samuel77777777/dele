@@ -6,6 +6,7 @@ import Footer from "./Footer";
 const Academics = () => {
   return (
     <Div>
+      {/* hero section starts here */}
       <div className="section">
         <div className="head">
           <Navbar />
@@ -23,6 +24,9 @@ const Academics = () => {
         </div>
       </div>
 
+      {/* hero section ends here */}
+
+      {/* i just have two sections for this page and section1 start here */}
       <div className="section--1">
         <center>
           Dele Preparatory School and Dele Peddle International High School will
@@ -33,6 +37,9 @@ const Academics = () => {
         </center>
       </div>
 
+      {/* section1 end here  */}
+
+      {/* section2 starts here */}
       <div className="section--2">
         <center>
           <h1 className="section--2-head">Performance Plans</h1>
@@ -45,6 +52,8 @@ const Academics = () => {
           </span>
         </center>
       </div>
+
+      {/* section2 ends here */}
 
       <Footer />
     </Div>
@@ -167,14 +176,14 @@ line-height: 28.8px;
   .logo1{
     position:absolute;
     top:50px;
-    left:60px;
+    left:40px;
       width:120px;
   height:120px;
     }
 .logo2{
     position:absolute;
     top:50px;
-    right:60px;
+    right:40px;
       width:120px;
   height:120px;
     }

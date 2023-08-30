@@ -5,11 +5,12 @@ import Footer from "./Footer";
 const About = () => {
   return (
     <Div>
-      <div className="section">
-        <div className="head">
+      {/* hero section starts here */}
+      <div className="section-1">
+        <div className="heading">
           <Navbar />
           <br /> <br />
-          <div className="sec">
+          <div className="logo-container">
             <img src="logo1.png" alt="" className="logo1" />
 
             <h1>
@@ -20,6 +21,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      {/* hero section ends here */}
 
       <div className="history">
         <h1>History</h1>
@@ -126,32 +128,32 @@ const About = () => {
 export default About;
 
 const Div = styled.div`
-.section{
+.section-1{
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.60) 4.35%, rgba(255, 255, 255, 0.60) 10.00%, rgba(0, 0, 0, 0.00) 48.69%), linear-gradient(184deg, #01263D 0%, rgba(0, 0, 0, 0.00) 40.00%),  url('Main.png');
   height:500px;
 background-size:cover;
   background-repeat:no-repeat;
 }
 
-.head{
+.heading{
   background: linear-gradient(180deg, #01263D 10.00%, rgba(0, 0, 0, 0.00) 100%);#
   width:100%;
   height:500px;
 }
 
 
-.sec{
+.logo-container{
   display:flex;
   justify-content:center;
   gap:50px;
   align-items:center;
 }
-.sec img{
+.logo-container img{
   width:120px;
   height:120px;
 }
 
-.sec h1{
+.logo-container h1{
 
 color: #70FF00;
 text-align: center;
@@ -289,7 +291,7 @@ text-transform: uppercase;
   @media (max-width: 768px) {
     overflow: hidden;
    
-    .sec{
+    .logo-container{
       position:relative;
       display:flex;
       flex-direction:column;
@@ -299,19 +301,19 @@ text-transform: uppercase;
   .logo1{
     position:absolute;
     top:50px;
-    left:60px;
+    left:40px;
       width:120px;
   height:120px;
     }
 .logo2{
     position:absolute;
     top:50px;
-    right:60px;
+    right:40px;
       width:120px;
   height:120px;
     }
 
-    .sec h1{
+    .logo-container h1{
       position:absolute;
       top:150px;
          font-size:45px;

@@ -3,7 +3,8 @@ import { styled } from "styled-components";
 const Footer = () => {
   return (
     <Div>
-      <div className="foot1">
+      {/* i have two section for the footer and it starts here with the first section called footer1 */}
+      <footer className="footer1">
         <img src="logo2.png" alt="" className="logo11" />
 
         <div className="contact">
@@ -11,7 +12,7 @@ const Footer = () => {
 
           <div className="sec1">
             <p>
-              <span className="sp1"> Office Hours </span> <br />
+              <span className="sec1-text"> Office Hours </span> <br />
               <span className=""> OPEN TO PARENT & GUEST </span> <br />
               Mondays- Thursday 8:45am - 3:00pm <br />
               Fridays:8:45am -2:30pm <br /> <br />
@@ -31,14 +32,18 @@ const Footer = () => {
           </div>
         </div>
         <img src="logo1.png" alt="" className="logo12" />
-      </div>
+      </footer>
+      {/* footer1 section ends here */}
 
-      <div className="foot2">
+      {/* footer2 section start here */}
+      <div className="footer2">
         <p>
           Copyright © 2023 Dele Preparatory School & Dele Peddle International
           High School | Powered by Peculiar Labs
         </p>
       </div>
+
+      {/* end of footer */}
     </Div>
   );
 };
@@ -46,7 +51,7 @@ const Footer = () => {
 export default Footer;
 
 const Div = styled.div`
-  .foot1 {
+  .footer1 {
     background: linear-gradient(
         180deg,
         #01263d 0%,
@@ -101,7 +106,7 @@ const Div = styled.div`
     line-height: 28.8px;
   }
 
-  .sp1 {
+  .sec1-text {
     color: #faff00;
     text-align: center;
     font-family: "Baloo Bhai 2", cursive;
@@ -122,7 +127,7 @@ const Div = styled.div`
     line-height: 28.8px;
   }
 
-  .foot2 {
+  .footer2 {
     display: flex;
     max-width: 1920px;
     min-height: 80px;
@@ -130,7 +135,7 @@ const Div = styled.div`
     justify-content: center;
     background: #000615;
   }
-  .foot2 p {
+  .footer2 p {
     color: #c2d3fe;
     text-align: center;
     font-family: "Baloo Bhai 2", cursive;
@@ -141,11 +146,11 @@ const Div = styled.div`
   }
 
   @media (max-width: 768px) {
-    .foot2 {
+    .footer2 {
       padding: 0;
     }
 
-    .foot1 {
+    .footer1 {
       display: flex;
       flex-direction: column;
       position: relative;

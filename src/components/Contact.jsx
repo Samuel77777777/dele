@@ -9,6 +9,7 @@ import Footer from "./Footer";
 const Contact = () => {
   return (
     <Div>
+      {/* hero section starts here */}
       <div className="section">
         <div className="head">
           <Navbar />
@@ -25,8 +26,12 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="get">
-        <div className="get1">
+      {/* hero section ends here */}
+
+      {/* the main contact container */}
+      {/* get in touch section start here */}
+      <div className="contact-me">
+        <div className="get-in-touch">
           <h1>Get In Touch</h1>
 
           <h3 className="wise">
@@ -71,7 +76,10 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="get2">
+        {/* get in touch section end here */}
+
+        {/* form section starts here */}
+        <div className="form">
           <h1>Send Us a Message</h1>
           <form action="">
             <input type="text" placeholder="Name" />
@@ -85,9 +93,14 @@ const Contact = () => {
         </div>
       </div>
 
+      {/* form section ends here */}
+
+      {/* map section start here */}
       <div className="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d7892.448472327897!2d-13.235076057286763!3d8.477564077895645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0xf04c3a83ee08c83%3A0x540553ae55e4914d!2sAllen%20St%2C%20Freetown!3m2!1d8.477553499999999!2d-13.2299262!4m0!5e0!3m2!1sen!2ssl!4v1692668547336!5m2!1sen!2ssl"></iframe>
       </div>
+
+      {/* map section end here */}
       <Footer />
     </Div>
   );
@@ -135,7 +148,7 @@ text-transform: uppercase;
 }
 
 
-.get{
+.contact-me{
 display:flex;
 gap:50px;
 padding: 100px 150px 199.39px 150px;
@@ -152,7 +165,7 @@ color:white;
   gap:15px;
 }
 
-.get1 {
+.get-in-touch {
   display: flex;
 max-width: 570px;
 flex-direction: column;
@@ -161,7 +174,7 @@ align-items: flex-start;
 }
 
 
-.get1 h1{
+.get-in-touch h1{
   color: #FFF;
 font-family: 'Baloo Bhai', sans-serif;
 font-size: 40px;
@@ -208,11 +221,11 @@ font-weight: 400;
 line-height: 28.8px; 
 }
 
-.get2 form{
+.form form{
   display:flex;
   flex-direction:column;
 }
-.get2 h1{
+.form h1{
   color: #FFF;
 font-family: 'Baloo Bhai', sans-serif;
 font-size: 40px;

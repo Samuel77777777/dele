@@ -13,75 +13,84 @@ import { Link } from "react-router-dom";
 const HomePage = () => {
   return (
     <Div>
-      <div className="section">
-        <div className="head">
+      {/* hero section start */}
+      <div className="section-1">
+        <div className="heading">
           <Navbar />
           <br /> <br />
-          <div className="sec">
+          <div className="logo-containers">
             <img src="logo1.png" alt="" className="logo1" />
 
             <img src="letters.png" alt="" className="let" />
 
             <img src="logo2.png" alt="" className="logo2" />
           </div>
-          <div className="ttt">
-            <span className="wisee">
+          {/* the motto */}
+          <div className="motto">
+            <span className="motto-text">
               A positive learning environment through high expectations.
             </span>
-            <Link to="/about" className="abt">
+            <Link to="/about" className="about-button">
               About us
             </Link>
           </div>
         </div>
       </div>
-      <div className="info">
-        <h1 className="info-head">Resources</h1>
+      {/* hero section  finish */}
+      {/* popup list card start */}
+      <div className="resource">
+        <h1 className="resource-head">Resources</h1>
 
-        <div className="info1">
-          <div className="res">
+        <div className="resource1">
+          <div className="resource-card">
             <h1>Registration</h1>
             <Reg />
           </div>
-          <div className="res">
+          <div className="resource-card">
             <h1>Transportation </h1>
             <Transport />
           </div>
-          <div className="res">
+          <div className="resource-card">
             <h1>Canteen Services</h1>
             <Canteen />
           </div>
         </div>
 
-        <div className="info2">
-          <div className="res">
+        <div className="resource2">
+          <div className="resource-card">
             <h1>School Resources</h1>
             <SchoolResource />
           </div>
 
-          <div className="res">
+          <div className="resource-card">
             <h1>FAQ</h1>
             <Faq />
           </div>
 
-          <div className="res">
+          <div className="resource-card">
             <h1>School Currriculum</h1>
             <Curriculmn />
           </div>
         </div>
       </div>
+      {/* popup list card end */}
       <br /> <br /> <br />
-      <div className="curri">
+      {/* extra curricular activities section */}
+      <div className="curricular-section">
         <img src="cur.png" alt="" />
       </div>
-      <div className="slid">
+      {/* slider section but i import it from slider.jsx */}
+      <div className="slider-containers">
         <Slider />
       </div>
-      <div className="sec-4">
-        <p className="t1">
+      {/* slider section */}
+      {/* section 4 start here */}
+      <div className="section-4">
+        <p className="text1">
           Dele Preparatory School and Dele Peddle International High School{" "}
         </p>
 
-        <p className="t2">
+        <p className="text2">
           OPEN TO PARENTS & GUESTS <br /> Mondays - Thursdays 8:45am - 3:00pm{" "}
           <br /> Fridays 8:45am - 2:30pm <br /> <br /> PUPILS HOURS <br />{" "}
           Mondays - Thursdays 7:00am - 3:30pm <br /> Fridays 7:00 - 2:30pm{" "}
@@ -91,6 +100,8 @@ const HomePage = () => {
           Into The School Compound. We Apologize For Any Inconvenience{" "}
         </p>
       </div>
+      {/* section 4 ends here */}
+      {/* icons section start here  */}
       <div className="icons">
         <div className="icon1">
           <img src="icon1.png" alt="" />
@@ -108,6 +119,8 @@ const HomePage = () => {
           <p>Teacher and Faculty</p>
         </div>
       </div>
+      {/* icons section ends here */}
+      {/* footer  component */}
       <Footer />
     </Div>
   );
@@ -119,21 +132,21 @@ overflow:hidden;
 width:100%;
 
 
-.section{
+.section-1{
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.60) 4.35%, rgba(255, 255, 255, 0.60) 10.00%, rgba(0, 0, 0, 0.00) 48.69%), linear-gradient(184deg, #01263D 0%, rgba(0, 0, 0, 0.00) 40.00%),  url('Main.png');
   height:700px;
 background-size:cover;
   background-repeat:no-repeat;
 }
 
-.head{
+.heading{
   background: linear-gradient(180deg, #01263D 10.00%, rgba(0, 0, 0, 0.00) 100%);#
   width:100%;
   height:700px;
 }
 
 
-.sec{
+.logo-containers{
   display:flex;
   justify-content:center;
   gap:10px;
@@ -175,14 +188,14 @@ background-size:cover;
   height:120px;
 }
 
-.ttt{
+.motto{
   display:flex;
   flex-direction:column;
   margin-top:11px;
 }
 
-.wisee{
-    color: #FFF;
+.motto-text{
+color: #FFF;
 font-family:' Bhoo loo Bhai', sans-serif;
 font-size: 24px;
 font-style: normal;
@@ -194,7 +207,7 @@ text-align:center;
 }
 
 
-.abt{
+.about-button{
 width: 157.52px;
 padding: 12px 35.52px 12px 35px;
 align-items: center;
@@ -219,7 +232,7 @@ letter-spacing: 1px;
 text-transform: uppercase;
 }
 
-.info{
+.resource{
     background: linear-gradient(180deg, #FFF 30.00%, rgba(0, 0, 0, 0.00) 100%);
 }
 
@@ -228,24 +241,24 @@ text-transform: uppercase;
  
 }
 
-.info{
-padding-top:300px;
+.resource{
+padding-top:90px;
   justify-content:center;
   text-align:center;
   align-items:center;
 background: linear-gradient(180deg, #FFF 30.00%, rgba(0, 0, 0, 0.00) 100%);
   max-width: 1920px;
-height: 800px;
+height: 650px;
 }
 
 
-.info-head{
+.resource-head{
   color: #228B22;
 text-align: center;
   font: 700 55px/97.5px "Fuzzy Bubbles", sans-serif;
 }
 
-.info1{
+.resource1{
 display:flex;
 justify-content:center;
 gap:10px;
@@ -253,13 +266,13 @@ margin-bottom:10px;
 
 }
 
-.info2{
+.resource2{
   display:flex;
   justify-content:center;
   gap:10px;
 }
 
-.res{
+.resource-card{
   display: flex;
 flex-direction:column;
 width:  300px;
@@ -271,7 +284,7 @@ text-align:center;
 
 }
 
-.res span{
+.resource-card span{
   display: flex;
 padding: 0px 13.31px 1.8px 13px;
 align-items: flex-start;
@@ -284,7 +297,7 @@ cursor:pointer;
 }
 
 
-.res h1{
+.resource-card h1{
   color: #FFF;
 text-align: center;
   font: 600 18px/26px "Baloo Bhai", sans-serif;
@@ -294,16 +307,18 @@ text-transform: uppercase;
 
 
 
-.curri{
+.curricular-section{
   width:100%;
+  background:#01263D ;
+  margin:0;
 }
-.curri img{
+.curricular-section img{
   objet-fit:cover;
   width:100%;
 }
 
 
-.slid{
+.slider-containers{
 background: linear-gradient(0deg, #FFF 0%, #01263D 100%);
 display: flex;
 max-width: 1920px;
@@ -313,7 +328,7 @@ border:1px solid black;
 }
 
 
-.sec-4{
+.section-4{
 background:  linear-gradient(180deg, rgba(0, 0, 0, 0.83) 50%, #01263D 100%),url("m3.png");  
 max-width: 1920px;
 height: 1000px;
@@ -330,7 +345,7 @@ padding-right:20px;
 
 
 }
-.t1{
+.text1{
 max-width: 842px;
 justify-content: center;
 color: #228B22;
@@ -340,7 +355,7 @@ font-style: normal;
 font-weight: 700;
 }
 
-.t2{
+.text2{
 max-width: 568px;
 color: #FAFF00;
 font-family: "Baloo Bhai", sans-serif;
@@ -429,14 +444,14 @@ object-fit:contain;
 
 
 
-.info{
+.resource{
   display:block;
   margin-top:0px;
   padding-top:20px;
   height:auto;
 }
 
-.info1{
+.resource1{
   display:block;
    gap:20px;
 
@@ -445,7 +460,7 @@ object-fit:contain;
 }
 
 
-.info2{
+.resource2{
   display:block;
    gap:20px;
 
@@ -454,7 +469,7 @@ object-fit:contain;
 }
 
 
-.sec{
+.logo-containers{
   display:flex;
   flex-direction:column;
   justify-content:center;
@@ -466,21 +481,21 @@ object-fit:contain;
 
 }
 
-.res{
+.resource-card{
   justify-content:center;
   margin:10px auto;
   
 }
 
 
-  .slid{
+  .slider-containers{
 background: linear-gradient(0deg, #FFF 0%, #01263D 100%);
 display: flex;
 padding: 120px 0px 110px 0px;
 border:1px solid black;
 margin:0;
 }
-.sec-4{
+.section-4{
   display:flex;
   flex-direction:column;
   text-align:center;
@@ -489,11 +504,11 @@ margin:0;
 
 }
 
-.t1{
+.text1{
   font-size:40px ;
 }
 
-.t2{
+.text2{
   font-size:20px;
 }
 
@@ -503,11 +518,11 @@ margin:0;
 
 }
 
-.info-head{
+.resource-head{
   font-size:45px;
 }
 
-.wisee{
+.motto-text{
   font-size:20px;
 }
 
