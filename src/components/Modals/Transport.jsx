@@ -16,17 +16,17 @@ const Transport = () => {
   return (
     <div>
       <button onClick={showModal} className="mood">
-        Transportation
+        Learn More{" "}
       </button>
       {show && (
         <div className="opacity" onClick={hideModal}>
           <div className="reg-modal" onClick={(e) => e.stopPropagation()}>
-            <div className="modal-text">
+            <div className="top">
               {" "}
-              <h6>Transportation</h6>
+              <h6 className="">Transportation</h6>
             </div>
 
-            <p className="tts">
+            <p className="modal-text">
               Optional. 4 buses running. Route - Upgun to the school and Rokel
               to the school
             </p>

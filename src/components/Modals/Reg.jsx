@@ -26,7 +26,7 @@ const Reg = () => {
               <h6>Registration</h6>
             </div>
 
-            <p className="tts">
+            <p className="modal-text">
               Daycare to Year 1 (nursery 1) starts May 2023. you are required to
               bring original birth certificate and original Under 5 Card. You
               are also required to bring your printed NIN. <br /> <br />

@@ -111,14 +111,19 @@ export default Contact;
 const Div = styled.div`
 
 .section{
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.60) 4.35%, rgba(255, 255, 255, 0.60) 10.00%, rgba(0, 0, 0, 0.00) 48.69%), linear-gradient(184deg, #01263D 0%, rgba(0, 0, 0, 0.00) 40.00%),  url('Main.png');
+  background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.9) 0%,
+        rgba(255, 255, 255, 0.9) 100%
+      ),
+      url("Main.png"), lightgray 0px -369.456px / 100% 205.861% no-repeat;  height:500px;
   height:500px;
 background-size:cover;
   background-repeat:no-repeat;
 }
 
 .head{
-  background: linear-gradient(180deg, #01263D 10.00%, rgba(0, 0, 0, 0.00) 100%);#
+
   width:100%;
   height:500px;
 }
@@ -136,14 +141,22 @@ background-size:cover;
 
 .sec h1{
 
-color: #70FF00;
-text-align: center;
-font-family: 'Fuzzy Bubbles', sans-serif;
-font-size: 65px;
-font-style: normal;
-font-weight: 700;
-letter-spacing: 2.5px;
-text-transform: uppercase;
+
+  color: #800020;
+  text-align: center;
+  font: 700 65px "Fuzzy Bubbles", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  // width: 40px;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  // webkit-text-fill-color: white;
+  // -webkit-text-stroke-width: 1px;
+  // -webkit-text-stroke-color: white;
 
 }
 

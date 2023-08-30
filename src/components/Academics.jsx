@@ -14,7 +14,7 @@ const Academics = () => {
           <div className="sec">
             <img src="logo1.png" alt="" className="logo1" />
 
-            <h1>
+            <h1 className="pop">
               Academics
               <hr />
             </h1>
@@ -63,166 +63,148 @@ const Academics = () => {
 export default Academics;
 
 const Div = styled.div`
-overflow:hidden;
-.section{
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.60) 4.35%, rgba(255, 255, 255, 0.60) 10.00%, rgba(0, 0, 0, 0.00) 48.69%), linear-gradient(184deg, #01263D 0%, rgba(0, 0, 0, 0.00) 40.00%),  url('Main.png');
-  height:500px;
-background-size:cover;
-  background-repeat:no-repeat;
-}
+  overflow: hidden;
+  .section {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.9) 0%,
+        rgba(255, 255, 255, 0.9) 100%
+      ),
+      url("Main.png"), lightgray 0px -369.456px / 100% 205.861% no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
-.head{
-  background: linear-gradient(180deg, #01263D 10.00%, rgba(0, 0, 0, 0.00) 100%);#
-  width:100%;
-  height:500px;
-}
+  .head {
+    width: 100%;
+    height: 500px;
+  }
 
-.sec{
-  display:flex;
-  justify-content:center;
-  gap:50px;
-  align-items:center;
-}
-.sec img{
-  width:120px;
-  height:120px;
-}
+  .sec {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+  }
+  .sec img {
+    width: 120px;
+    height: 120px;
+  }
 
-.sec h1{
+  .sec h1 {
+    color: #800020;
+    text-align: center;
+    font: 700 65px/97.5px "Fuzzy Bubbles", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    width: 405px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-color: #70FF00;
-text-align: center;
-font-family: 'Fuzzy Bubbles', sans-serif;
-font-size: 65px;
-font-style: normal;
-font-weight: 700;
-letter-spacing: 2.5px;
-text-transform: uppercase;
+  .section--1 {
+    max-width: 1920px;
+    height: 460px;
+    background: #0d0b06;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
 
-}
+  .section--1 center {
+    max-width: 1000px;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 200px;
+    margin: 0 auto;
+    text-align: left;
+  }
 
-.section--1{
-max-width: 1920px;
-height: 460px;
-background:#0D0B06;
-color:white;
-justify-content:center;
-align-items:center;
-margin:0 auto;
+  .section--2 {
+    display: flex;
+    max-width: 1920px;
+    padding: 199px 390px 200px 390px;
+    justify-content: center;
+    align-items: flex-start;
+    background: #fff;
+  }
 
+  .section--2-head {
+    color: #01263d;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 64px;
+  }
 
-}
+  .section--2 span {
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+    align-items: center;
+    // gap: -0.2px;
+    // flex-shrink: 0;
+    text-align: left;
+    margin-left: 30px;
 
-.section--1 center{
-max-width:1000px;
-font-family: 'Baloo Bhai', sans-serif;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-padding-top:200px;
-margin: 0 auto;
-text-align:left;
+    color: #000615;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+  }
 
-}
-
-.section--2{
-display: flex;
-max-width: 1920px;
-padding: 199px 390px 200px 390px;
-justify-content: center;
-align-items: flex-start;
-background: #FFF;
-}
-
-.section--2-head{
-color: #01263D;
-font-family: 'Baloo Bhai', sans-serif;
-font-size: 56px;
-font-style: normal;
-font-weight: 900;
-line-height: 64px;
-}
-
-
-.section--2 span{
- display: flex;
-max-width: 516px;
-flex-direction: column;
-align-items: flex-start;
-gap: -0.2px;
-flex-shrink: 0;
-text-align:left;
-
-
-color: #000615;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 28.8px; 
-}
-
-
-
-@media(max-width:769px){
-
-
-    .sec{
-      position:relative;
-      display:flex;
-      flex-direction:column;
+  @media (max-width: 769px) {
+    .sec {
+      position: relative;
+      display: flex;
+      flex-direction: column;
     }
 
-  .logo1{
-    position:absolute;
-    top:50px;
-    left:40px;
-      width:120px;
-  height:120px;
+    .logo1 {
+      position: absolute;
+      top: 50px;
+      left: 40px;
+      width: 120px;
+      height: 120px;
     }
-.logo2{
-    position:absolute;
-    top:50px;
-    right:40px;
-      width:120px;
-  height:120px;
-    }
-
-    .sec h1{
-      position:absolute;
-      top:150px;
-      font-size:45px;
+    .logo2 {
+      position: absolute;
+      top: 50px;
+      right: 40px;
+      width: 120px;
+      height: 120px;
     }
 
-
-
-
-
+    .sec h1 {
+      position: absolute;
+      top: 150px;
+      font-size: 45px;
+    }
 
     .section--1 {
-     height:600px;
-       padding-left:10px;
+      height: 600px;
+      padding-left: 10px;
     }
-   .section--2{
-    padding:0;
-   }
+    .section--2 {
+      padding: 0;
+    }
 
-.section--2-head{
-  font-size:45px;
+    .section--2-head {
+      font-size: 45px;
+    }
 
-   }
-
-
-   .section--2 span{
-    font-family: 'Baloo Bhai', sans-serif;
-    padding-bottom:50px;
-   }
-
-
-
-}
-
-
-
-
+    .section--2 span {
+      font-family: "Baloo Bhai", sans-serif;
+      padding-bottom: 50px;
+    }
+  }
 `;

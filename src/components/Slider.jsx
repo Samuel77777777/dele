@@ -67,6 +67,7 @@ const Slider = () => {
   return (
     <Div className="slider-container">
       <Carousel
+        autoPlay={true}
         showArrows={true}
         showThumbs={true}
         showStatus={false}

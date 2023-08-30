@@ -26,7 +26,7 @@ const Curriculmn = () => {
               <h6>Curriculumn</h6>
             </div>
 
-            <p className="tts">
+            <p className="modal-text">
               This will be downloadable and extra information shown on top.
             </p>
           </div>

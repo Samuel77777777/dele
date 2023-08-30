@@ -26,7 +26,7 @@ const Faq = () => {
               <h6>Faq</h6>
             </div>
 
-            <p className="tts">Frequently Asked Questions</p>
+            <p className="modal-text">Frequently Asked Questions</p>
           </div>
         </div>
       )}

@@ -59,11 +59,11 @@ const Div = styled.div`
     margin: 0 auto;
   }
   .link {
-    color: #faff00;
-    font-family: "Baloo Bhai 2", cursive;
+    color: #800020;
+    font-family: "Baloo Bhai 2", sans-serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 70px;
 
     list-style: none;

@@ -26,7 +26,7 @@ const SchoolResource = () => {
               <h6>School Resources</h6>
             </div>
 
-            <p className="tts">Unlimited Resources</p>
+            <p className="modal-text">Unlimited Resources</p>
           </div>
         </div>
       )}

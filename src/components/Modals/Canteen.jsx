@@ -26,7 +26,7 @@ const Canteen = () => {
               <h6>Canteen</h6>
             </div>
 
-            <p className="tts">
+            <p className="modal-text">
               We have a school canteen where pupils eat and can buy food. Use of
               the canteen is optional
             </p>

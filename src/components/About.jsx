@@ -13,9 +13,9 @@ const About = () => {
           <div className="logo-container">
             <img src="logo1.png" alt="" className="logo1" />
 
-            <h1>
+            <h3 className="pop">
               About Us <hr />
-            </h1>
+            </h3>
 
             <img src="logo2.png" alt="" className="logo2" />
           </div>
@@ -25,6 +25,7 @@ const About = () => {
 
       <div className="history">
         <h1>History</h1>
+
         <p>
           Dele Preparatory School was founded on the 5th of March 1983 in
           Wellington, Freetown, by Mrs Eudora Francess Browne. The school
@@ -129,14 +130,18 @@ export default About;
 
 const Div = styled.div`
 .section-1{
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.60) 4.35%, rgba(255, 255, 255, 0.60) 10.00%, rgba(0, 0, 0, 0.00) 48.69%), linear-gradient(184deg, #01263D 0%, rgba(0, 0, 0, 0.00) 40.00%),  url('Main.png');
-  height:500px;
+  background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.9) 0%,
+        rgba(255, 255, 255, 0.9) 100%
+      ),
+      url("Main.png"), lightgray 0px -369.456px / 100% 205.861% no-repeat;  height:500px;
 background-size:cover;
   background-repeat:no-repeat;
 }
 
 .heading{
-  background: linear-gradient(180deg, #01263D 10.00%, rgba(0, 0, 0, 0.00) 100%);#
+
   width:100%;
   height:500px;
 }
@@ -259,6 +264,22 @@ text-transform: uppercase;
     justify-content: center;
     align-items: cener;
     gap: 100px;
+  }
+
+  .pop{
+      color: #800020;
+  text-align: center;
+  font: 700 65px/97.5px "Fuzzy Bubbles", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
   }
 
   .text {

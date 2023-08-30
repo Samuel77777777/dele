@@ -1,4 +1,6 @@
 import { styled } from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -24,7 +26,7 @@ const Footer = () => {
 
           <div className="sec3">
             <p>
-              phone : 232 99 005 251 <br />
+              <FontAwesomeIcon icon={faPhone} /> : 232 99 005 251 <br />
               deleprepschool@yahoo.co.uk <br />
               Location <br />
               Reservation View, Allen Town (Old Road)
@@ -54,11 +56,12 @@ const Div = styled.div`
   .footer1 {
     background: linear-gradient(
         180deg,
-        #01263d 0%,
-        rgba(1, 38, 61, 0.93) 50%,
-        #000615 100%
+        rgba(255, 255, 255, 0.9) 0%,
+        rgba(1, 38, 61, 0.84) 140.26%,
+        rgba(0, 6, 21, 0.9) 0%
       ),
-      url("footer.png");
+      url("footer.png"), lightgray 0px -369.456px / 100% 205.861% no-repeat;
+    height: 500px;
     height: 700px;
     display: flex;
     justify-content: center;
@@ -83,47 +86,47 @@ const Div = styled.div`
     align-items: center;
     gap: 25px;
     text-align: center;
-    color: #faff00;
+    color: #800020;
   }
 
   .contact-head {
-    color: #faff00;
+    color: #800020;
     text-align: center;
-    font-family: "Baloo Bhai 2", cursive;
+    font-family: "Baloo Bhai 2", sans-serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 36px;
     letter-spacing: 2.5px;
   }
   .sec1 {
-    color: #faff00;
+    color: #800020;
     text-align: center;
-    font-family: "Baloo Bhai 2", cursive;
+    font-family: "Baloo Bhai 2", sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 28.8px;
   }
 
   .sec1-text {
-    color: #faff00;
+    color: #800020;
     text-align: center;
-    font-family: "Baloo Bhai 2", cursive;
+    font-family: "Baloo Bhai 2", sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 28.8px;
     margin-bottom: 5px;
   }
 
   .sec3 {
-    color: #faff00;
+    color: #800020;
     text-align: center;
     font-family: "Baloo Bhai 2", sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 28.8px;
   }
 
@@ -138,7 +141,7 @@ const Div = styled.div`
   .footer2 p {
     color: #c2d3fe;
     text-align: center;
-    font-family: "Baloo Bhai 2", cursive;
+    font-family: "Baloo Bhai 2", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
