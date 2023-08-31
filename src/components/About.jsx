@@ -50,7 +50,7 @@ const About = () => {
         <div className="vision">
           <h1>
             Vision <br />
-            StateMent
+            Statement
           </h1>
 
           <p>
@@ -209,13 +209,14 @@ text-transform: uppercase;
     justify-content: center;
     align-items: center;
     gap: 230px;
-    clip-path: polygon(2% 1%, 100% 9%, 100% 89%, 0% 100%);
- 
+clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
+ width:100%; 
   }
-  .clip{
-background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(255,255,255,1) 6%);
-  }
+
+//   .clip{
+// background: rgb(0,0,0);
+//  background: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(255,255,255,1) 6%);
+//   }
 
   .vision p {
     color: #fff;
@@ -292,7 +293,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(255,255,255,1) 6%);
     justify-content: center;
     align-items: center;
     gap: 230px;
-  clip-path: polygon(0 14%, 100% 2%, 100% 100%, 0 87%);
+  clip-path: polygon(0 14%, 100% 10%, 100% 100%, 0 87%);
 
  
   }
@@ -389,7 +390,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(255,255,255,1) 6%);
     .pop{
       position:absolute;
       top:150px;
-         font-size:45px;
+      font-size:45px;
     }
 
 

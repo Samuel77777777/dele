@@ -33,12 +33,16 @@ const Div = styled.div`
 
   aside {
     margin-bottom: 400px;
-    background: linear-gradient(0deg, #fff 0%, #01263d 100%);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.9) 0%,
+      rgba(255, 255, 255, 0.9) 100%
+    );
     width: 350px;
     height: 100vh;
     right: 0%;
     box-shadow: 10px -5px 47px 0px rgba(0, 0, 0, 0);
-    animation: myAnim 2s ease 0s 1 normal forwards;
+    animation: myAnim 0.3s ease 0s 1 normal forwards;
 
     .side-list {
       display: flex;

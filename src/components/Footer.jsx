@@ -13,12 +13,12 @@ const Footer = () => {
           <h1 className="contact-head">Contact Us</h1>
 
           <div className="sec3">
-            <p>
+            <span>
               <FontAwesomeIcon icon={faPhone} /> : 232 99 005 251 <br />
               deleprepschool@yahoo.co.uk <br />
               Location <br />
               Reservation View, Allen Town (Old Road)
-            </p>
+            </span>
           </div>
         </div>
         <img src="logo1.png" alt="" className="logo12" />

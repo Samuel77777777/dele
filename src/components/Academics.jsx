@@ -42,9 +42,7 @@ const Academics = () => {
       {/* section2 starts here */}
       <div className="section--2">
         <center>
-          <h1 className="section--2-head">
-            Performance <br /> Plans
-          </h1>
+          <h1 className="section--2-head">Performance Plans</h1>
           <span>
             Dele Preparatory School and Dele Peddle International High School
             will be embracing, teaching about, <br /> modeling and expecting the
@@ -115,6 +113,7 @@ const Div = styled.div`
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    clip-path: polygon(0 0, 99% 8%, 100% 91%, 0 98%);
   }
 
   .section--1 center {
@@ -123,7 +122,7 @@ const Div = styled.div`
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    padding-top: 200px;
+    padding-top: 100px;
     margin: 0 auto;
     text-align: left;
   }
@@ -131,7 +130,7 @@ const Div = styled.div`
   .section--2 {
     display: flex;
     max-width: 1920px;
-    padding: 199px 390px 200px 390px;
+    padding: 199px 200px 200px 200px;
     justify-content: center;
     align-items: flex-start;
     background: #fff;

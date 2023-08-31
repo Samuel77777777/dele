@@ -101,6 +101,7 @@ const Contact = () => {
       </div>
 
       {/* map section end here */}
+
       <Footer />
     </Div>
   );
@@ -255,7 +256,7 @@ const Div = styled.div`
     font-family: "Baloo Bhai 2", sans-serif;
     font-size: 12px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -271,6 +272,16 @@ const Div = styled.div`
   iframe {
     width: 100%;
     height: 489px;
+  }
+  .footer1 {
+    color: #800020;
+  }
+
+  .sec1-text {
+    color: #800020;
+  }
+  .sec3 {
+    color: #800020;
   }
 
   @media (max-width: 768px) {

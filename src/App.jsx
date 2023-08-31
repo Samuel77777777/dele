@@ -5,6 +5,8 @@ import Routess from "./Routes";
 // import Slider from "./components/Slider";
 // import Contact from "./components/Contact";
 
+// import Test from "./components/Test";
+
 // import Sidebar from "./components/Sidebar";
 
 const App = () => {
@@ -14,6 +16,7 @@ const App = () => {
       {/* <Contact /> */}
       {/* <HomePage /> */}
       <Routess />
+      {/* <Test /> */}
       {/* <Slider /> */}
       {/* <Sidebar /> */}
       {/* <Reg /> */}

@@ -103,14 +103,20 @@ export default Slider;
 const Div = styled.div`
   max-width: 1100px;
   margin: 0 auto;
-  padding: 20px;
+  align-items: start;
+  justify-content: center;
 
   .thumbs-wrapper {
     margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
   }
+
   .thumbs-wrapper img {
     width: 208px;
-    object-fit: cover;
+    object-fit: contain;
+    // margin-left: 10px;
   }
 
   @media (max-width: 768px) {
