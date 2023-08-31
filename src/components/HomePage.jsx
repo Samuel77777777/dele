@@ -77,7 +77,15 @@ const HomePage = () => {
       <br /> <br /> <br />
       {/* extra curricular activities section */}
       <div className="curricular-section">
-        <img src="cur.png" alt="" />
+        <h1>
+          Extra Curricular <br /> Ativities
+        </h1>
+        <p>
+          {" "}
+          The Centers for Disease Control and Prevention (CDC) has made new
+          recommendations for contact tracing in school based settings. Click
+          the document link below for more information.{" "}
+        </p>
       </div>
       {/* slider section but i import it from slider.jsx */}
       <div className="slider-containers">
@@ -300,14 +308,40 @@ const Div = styled.div`
   }
 
   .curricular-section {
-    width: 100%;
-    background: #01263d;
-    margin: 0;
+    background: linear-gradient(92deg, #be1e2d 25%, rgba(0, 0, 0, 0) 70%),
+      #01263d;
+    max-width: 1920px;
+    height: 416px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
   }
-  .curricular-section img {
-    objet-fit: cover;
-    width: 100%;
+
+  .curricular-section h1 {
+    color: #fff;
+    font-family: Fuzzy Bubbles;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 84px; /* 150% */
   }
+
+  .curricular-section p {
+    color: #faff00;
+    text-align: right;
+    font-family: "Baloo Bhai", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px; /* 160% */
+    max-width: 400px;
+  }
+
+  // .curricular-section img {
+  //   objet-fit: cover;
+  //   width: 100%;
+  // }
 
   .slider-containers {
     background: linear-gradient(0deg, #fff 0%, #01263d 100%);
@@ -427,6 +461,23 @@ const Div = styled.div`
       width: 100%;
     }
 
+    .curricular-section {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      background: linear-gradient(
+          to bottom,
+          // 92deg,
+          #be1e2d 25%,
+          rgba(0, 0, 0, 0) 70%
+        ),
+        #01263d;
+      gap: 20px;
+      text-align: center;
+    }
+    .curricular-section p {
+      text-align: center;
+    }
     .resource {
       display: block;
       margin-top: 0px;

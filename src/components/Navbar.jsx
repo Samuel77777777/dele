@@ -97,6 +97,7 @@ const Div = styled.div`
 
     .icon {
       font-size: 30px;
+      color: black;
     }
   }
 `;

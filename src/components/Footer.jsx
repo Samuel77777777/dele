@@ -49,7 +49,7 @@ const Div = styled.div`
         rgba(0, 6, 21, 0.9) 0%
       ),
       url("footer.png"), lightgray 0px -369.456px / 100% 205.861% no-repeat;
-    height: 511px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;

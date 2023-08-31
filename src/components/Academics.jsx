@@ -14,7 +14,7 @@ const Academics = () => {
           <div className="sec">
             <img src="logo1.png" alt="" className="logo1" />
 
-            <h1 className="pop">
+            <h1 className="">
               Academics
               <hr />
             </h1>
@@ -42,7 +42,9 @@ const Academics = () => {
       {/* section2 starts here */}
       <div className="section--2">
         <center>
-          <h1 className="section--2-head">Performance Plans</h1>
+          <h1 className="section--2-head">
+            Performance <br /> Plans
+          </h1>
           <span>
             Dele Preparatory School and Dele Peddle International High School
             will be embracing, teaching about, <br /> modeling and expecting the
@@ -98,7 +100,7 @@ const Div = styled.div`
     font: 700 65px/97.5px "Fuzzy Bubbles", sans-serif;
     text-transform: uppercase;
     position: relative;
-    width: 405px;
+
     height: 78px;
     display: flex;
     align-items: center;
@@ -135,6 +137,11 @@ const Div = styled.div`
     background: #fff;
   }
 
+  center {
+    display: flex;
+    gap: 50px;
+  }
+
   .section--2-head {
     color: #01263d;
     font-family: "Baloo Bhai 2", sans-serif;
@@ -142,6 +149,7 @@ const Div = styled.div`
     font-style: normal;
     font-weight: 900;
     line-height: 64px;
+    text-align: left;
   }
 
   .section--2 span {
@@ -188,6 +196,13 @@ const Div = styled.div`
       position: absolute;
       top: 150px;
       font-size: 45px;
+      text-align: center;
+    }
+
+    center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .section--1 {

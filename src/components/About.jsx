@@ -46,19 +46,20 @@ const About = () => {
           divided into 3 terms (September- December, January- April, May -July)
         </p>
       </div>
+      <div className="clip">
+        <div className="vision">
+          <h1>
+            Vision <br />
+            StateMent
+          </h1>
 
-      <div className="vision">
-        <h1>
-          Vision <br />
-          StateMent
-        </h1>
-
-        <p>
-          Dele Preparatory School and Dele Peddle International School is
-          committed to providing every scholar with a positive and inclusive
-          learning environment that promotes G.O.L.D. through data-driven
-          instruction, trauma informed teaching practices & high expectations.
-        </p>
+          <p>
+            Dele Preparatory School and Dele Peddle International School is
+            committed to providing every scholar with a positive and inclusive
+            learning environment that promotes G.O.L.D. through data-driven
+            instruction, trauma informed teaching practices & high expectations.
+          </p>
+        </div>
       </div>
 
       <div className="mission">
@@ -72,13 +73,15 @@ const About = () => {
         </p>
       </div>
 
-      <div className="vision">
-        <h1>Mottos</h1>
+      <div className="clip-2">
+        <div className="mottos">
+          <h1 className="mottoss">Mottos</h1>
 
-        <p>
-          Primary - Never despair <br /> Secondary - Summoning the human spirit
-          to its best self
-        </p>
+          <p>
+            Primary - Never despair <br /> Secondary - Summoning the human
+            spirit to its best self
+          </p>
+        </div>
       </div>
 
       <div className="extra">
@@ -141,7 +144,6 @@ background-size:cover;
 }
 
 .heading{
-
   width:100%;
   height:500px;
 }
@@ -159,7 +161,6 @@ background-size:cover;
 }
 
 .logo-container h1{
-
 color: #70FF00;
 text-align: center;
 font-family: 'Fuzzy Bubbles', cursive;
@@ -194,7 +195,6 @@ text-transform: uppercase;
     align-content: center;
     flex-shrink: 0;
     flex-wrap: wrap;
-
     color: #000615;
   font: 400 20px/28.8px "Baloo Bhai 2", sans-serif;
 
@@ -208,7 +208,13 @@ text-transform: uppercase;
     color: white;
     justify-content: center;
     align-items: center;
-    gap: 227px;
+    gap: 230px;
+    clip-path: polygon(2% 1%, 100% 9%, 100% 89%, 0% 100%);
+ 
+  }
+  .clip{
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(255,255,255,1) 6%);
   }
 
   .vision p {
@@ -218,8 +224,8 @@ text-transform: uppercase;
     font-style: normal;
     font-weight: 400;
     line-height: 28.8px;
-    max-width: 450px;
-    border:1px solid blue;
+    max-width: 400px;
+
   }
 
   .vision h1 {
@@ -228,7 +234,7 @@ text-transform: uppercase;
     font-size: 65px;
     font-style: normal;
     font-weight: 700;
-    border: solid blue;
+
   }
 
   .mission {
@@ -237,7 +243,7 @@ text-transform: uppercase;
     display: flex;
     color: white;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 227px;
     
   }
@@ -255,22 +261,61 @@ text-transform: uppercase;
 
   .mission h1 {
     color: #800020;
-  font-family: 'Fuzzy Bubbles', sans-serif;
+   font-family: 'Fuzzy Bubbles', sans-serif;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    // margin-right:100px;
+    
+  }
+
+    .mottoss {
+    color: #faff00;
+    font-family: 'Fuzzy Bubbles', sans-serif;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    border:1px solid blue;
-    margin-right:100px;
+    // border:1px solid blue;
+    margin-right:140px;
+    text-align:left;
+    max-width:400px;
+
     
   }
+  
+  .mottos {
+    margin-top: 120px;
+    height: 320px;
+    display: flex;
+    background: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 230px;
+  clip-path: polygon(0 14%, 100% 2%, 100% 100%, 0 87%);
+
+ 
+  }
+
+    .mottos p{
+    color: #fff;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    max-width: 400px;
+
+  }
+
 
   .extra {
     display: flex;
     max-width: 1920px;
-    padding: 100px 390px;
+    padding: 100px 300px;
     justify-content: center;
     align-items: cener;
-    gap: 100px;
+    gap: 230px;
   }
 
   .pop{
@@ -314,11 +359,11 @@ text-transform: uppercase;
     font-size: 65px;
     font-style: normal;
     font-weight: 700;
+    margin-left:100px;
   }
 
   @media (max-width: 768px) {
     overflow: hidden;
-   
     .logo-container{
       position:relative;
       display:flex;
@@ -341,7 +386,7 @@ text-transform: uppercase;
   height:120px;
     }
 
-    .logo-container h1{
+    .pop{
       position:absolute;
       top:150px;
          font-size:45px;
@@ -375,6 +420,26 @@ text-transform: uppercase;
       font-size: 20px;
     }
     .vision p {
+      font-size: 18px;
+      text-align: center;
+    }
+
+
+
+
+        .mottos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+            margin-top:0;
+    }
+
+    .mottoss {
+      font-size: 20px;
+    }
+    .mottos p {
       font-size: 18px;
       text-align: center;
     }

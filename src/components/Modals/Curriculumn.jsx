@@ -27,7 +27,7 @@ const Curriculmn = () => {
             </div>
 
             <p className="modal-text">
-              School re-opens on the 4th of September 2023 <br /> <br /> PUPILS
+              School re-opens on the 4th of September 2023 <br /> <br /> PUPIL`S
               HOURS <br /> Mondays - Thursdays 7:00am - 3:30pm <br /> Fridays
               7:00 - 2:30pm <br /> <br />
               GENERAL INFORMATION <br /> All Visitors are Kindly Asked To Sign
