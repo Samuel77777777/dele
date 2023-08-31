@@ -43,6 +43,7 @@ const Div = styled.div`
     right: 0%;
     box-shadow: 10px -5px 47px 0px rgba(0, 0, 0, 0);
     animation: myAnim 0.3s ease 0s 1 normal forwards;
+    align-items: center;
 
     .side-list {
       display: flex;

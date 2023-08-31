@@ -49,7 +49,7 @@ const Div = styled.div`
         rgba(0, 6, 21, 0.9) 0%
       ),
       url("footer.png"), lightgray 0px -369.456px / 100% 205.861% no-repeat;
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@ const Div = styled.div`
 
     flex-direction: column;
     align-items: center;
-    gap: 25px;
+    gap: 2px;
     text-align: center;
     color: #800020;
   }
@@ -102,7 +102,7 @@ const Div = styled.div`
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: 28.8px;
+    // line-height: 28.8px;
     margin-bottom: 5px;
   }
 
@@ -113,7 +113,6 @@ const Div = styled.div`
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: 28.8px;
   }
 
   .footer2 {

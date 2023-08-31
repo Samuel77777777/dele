@@ -160,6 +160,7 @@ background-size:cover;
   height:120px;
 }
 
+
 .logo-container h1{
 color: #70FF00;
 text-align: center;
@@ -169,21 +170,26 @@ font-style: normal;
 font-weight: 700;
 letter-spacing: 2.5px;
 text-transform: uppercase;
-
 }
 
 
-  .history {
+
+.history {
     margin-top: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 318px;
+    gap: 227px;
+      margin-left:140px;
+    text-align:left;
   }
+
+
+  
 
   .history h1 {
     color: #800020;
-    font: 700 65px/97.5px "Fuzzy Bubbles", sans-serif;
+    font: 700 50px/97.5px "Fuzzy Bubbles", sans-serif;
  
   }
 
@@ -232,15 +238,15 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
   .vision h1 {
     color: #faff00;
    font-family: 'Fuzzy Bubbles', sans-serif;
-    font-size: 65px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 700;
 
   }
 
   .mission {
-       margin-top: 50px;
-    height: 200px;
+       margin-top: 30px;
+    height: 100px;
     display: flex;
     color: white;
     justify-content: center;
@@ -263,7 +269,7 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
   .mission h1 {
     color: #800020;
    font-family: 'Fuzzy Bubbles', sans-serif;
-    font-size: 65px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 700;
     // margin-right:100px;
@@ -273,7 +279,7 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
     .mottoss {
     color: #faff00;
     font-family: 'Fuzzy Bubbles', sans-serif;
-    font-size: 56px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 700;
     // border:1px solid blue;
@@ -357,7 +363,7 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
   .extra h1 {
     color: #800020;
   font-family: 'Fuzzy Bubbles', sans-serif;
-    font-size: 65px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 700;
     margin-left:100px;

@@ -2,11 +2,40 @@ import { styled } from "styled-components";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import { useState } from "react";
 
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 const Contact = () => {
+  const [showAlert, setShowAlert] = useState(false);
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_xxlwb2r",
+        "template_h79nvdp",
+        form.current,
+        "TaU9DMKtKq15KlZ6w"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          form.current.reset();
+          setShowAlert(true);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <Div>
       {/* hero section starts here */}
@@ -80,12 +109,27 @@ const Contact = () => {
 
         {/* form section starts here */}
         <div className="form">
+          {showAlert && (
+            <div className="success-alert">Email Sent Successfully </div>
+          )}
+
           <h1>Send Us a Message</h1>
-          <form action="">
-            <input type="text" placeholder="Name" />
-            <input type="tel" placeholder="Phone" />
-            <input type="email" placeholder="Email" />
-            <textarea name="" id="" cols="60" rows="10"></textarea>
+          <form ref={form} onSubmit={sendEmail}>
+            <input type="text" placeholder="Name" name="user_name" required />
+            <input type="tel" placeholder="Phone" name="user_phone" required />
+            <input
+              type="email"
+              placeholder="Email"
+              name="user_email"
+              required
+            />
+            <textarea
+              name="message"
+              id=""
+              cols="60"
+              rows="10"
+              required
+            ></textarea>
             <br />
             <br />
             <button type="submit">Submit</button>
@@ -282,6 +326,15 @@ const Div = styled.div`
   }
   .sec3 {
     color: #800020;
+  }
+
+  .success-alert {
+    background-color: #228b22;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Baloo Bhai 2", sans-serif;
   }
 
   @media (max-width: 768px) {
