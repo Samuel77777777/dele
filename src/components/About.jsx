@@ -369,6 +369,8 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
     margin-left:100px;
   }
 
+
+
   @media (max-width: 768px) {
     overflow: hidden;
     .logo-container{
@@ -408,6 +410,7 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
       align-items: center;
       gap: 30px;
       overflow: hidden;
+      margin:0;
     }
     .history p {
       padding: 10px;

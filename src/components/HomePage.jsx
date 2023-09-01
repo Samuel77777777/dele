@@ -78,7 +78,7 @@ const HomePage = () => {
       {/* extra curricular activities section */}
       <div className="curricular-section">
         <h1>
-          Extra Curricular <br /> Ativities
+          Extra Curricular <br /> Activities
         </h1>
         <p>
           {" "}
@@ -551,6 +551,36 @@ const Div = styled.div`
 
     .motto-text {
       font-size: 20px;
+    }
+  }
+
+  @media (max-width: 1080px) {
+    .logo2 {
+      position: absolute;
+      right: 50px;
+      bottom: 100px;
+      width: 120px;
+      height: 120px;
+    }
+
+    .logo1 {
+      position: absolute;
+      left: 50px;
+      bottom: 100px;
+      width: 120px;
+      height: 120px;
+      margin-right: 20px;
+    }
+
+    .logo-containers {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      width: 100%;
+      margin-top: 200px;
+      position: relative;
     }
   }
 `;
