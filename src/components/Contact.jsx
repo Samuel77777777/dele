@@ -44,13 +44,13 @@ const Contact = () => {
           <Navbar />
           <br /> <br />
           <div className="sec">
-            <img src="logo1.png" alt="" className="logo1" />
+            <img src="logo2.png" alt="" className="logo1" />
 
             <h1>
               Contact Us <hr />
             </h1>
 
-            <img src="logo2.png" alt="" className="logo2" />
+            <img src="logo1.png" alt="" className="logo2" />
           </div>
         </div>
       </div>

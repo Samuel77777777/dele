@@ -12,14 +12,14 @@ const Academics = () => {
           <Navbar />
           <br /> <br />
           <div className="sec">
-            <img src="logo1.png" alt="" className="logo1" />
+            <img src="logo2.png" alt="" className="logo1" />
 
             <h1 className="">
               Academics
               <hr />
             </h1>
 
-            <img src="logo2.png" alt="" className="logo2" />
+            <img src="logo1.png" alt="" className="logo2" />
           </div>
         </div>
       </div>
@@ -44,11 +44,15 @@ const Academics = () => {
         <center>
           <h1 className="section--2-head">Performance Plans</h1>
           <span>
-            Dele Preparatory School and Dele Peddle International High School
-            will be embracing, teaching about, <br /> modeling and expecting the
-            following CORE <br /> VALUES to be infused throughout the building.{" "}
-            <br /> Please help us model & teach these from home! It takes a
-            village to raise a child! Let’s work to strengthen our village!.
+            Be humble (Conscientious) <br />
+            Congratulate and uplift other (cooperation) <br />
+            Find solutions, not excuses (Honetly) <br />
+            Always say excuse me, please, and thank you (Respect) <br />
+            Mistakes are stepping stones for success (confindence) <br />
+            Always come to class prepared to learn (Integrity) <br />
+            Be an active listener (Empathy) <br />
+            Practice makes progress (Perserverance) <br />
+            Be a Dynamic greeter (Kindness)
           </span>
         </center>
       </div>
@@ -165,7 +169,7 @@ const Div = styled.div`
     font-family: "Baloo Bhai 2", sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 28.8px;
   }
 

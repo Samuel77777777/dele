@@ -19,11 +19,11 @@ const HomePage = () => {
           <Navbar />
           <br /> <br />
           <div className="logo-containers">
-            <img src="logo1.png" alt="" className="logo1" />
+            <img src="logo2.png" alt="" className="logo1" />
 
             <img src="letters.png" alt="" className="let" />
 
-            <img src="logo2.png" alt="" className="logo2" />
+            <img src="logo1.png" alt="" className="logo2" />
           </div>
           {/* the motto */}
           <div className="motto">
@@ -78,35 +78,29 @@ const HomePage = () => {
       {/* extra curricular activities section */}
       <div className="curricular-section">
         <h1>
-          Extra Curricular <br /> Activities
+          Empowering young <br /> minds in a positive <br /> learning
+          Environment
         </h1>
         <p>
-          {" "}
-          The Centers for Disease Control and Prevention (CDC) has made new
-          recommendations for contact tracing in school based settings. Click
-          the document link below for more information.{" "}
+          Dele preparatory school and Dele Peddle <br /> international school
+          welcomes any student in new <br /> orleans interested in exploring the
+          field of <br />
+          science, technology, engineering, and math.
         </p>
       </div>
       {/* slider section but i import it from slider.jsx */}
       <div className="slider-containers">
         <Slider />
       </div>
-      {/* slider section */}
       {/* section 4 start here */}
       <div className="section-4">
-        <p className="text1">
-          Dele Preparatory School <br /> and Dele Peddle <br /> International
-          High <br /> School{" "}
-        </p>
+        <p className="text1">Did you know?</p>
 
         <p className="text2">
-          OPEN TO PARENTS & GUESTS <br /> Mondays - Thursdays 8:45am - 3:00pm{" "}
-          <br /> Fridays 8:45am - 2:30pm <br /> <br /> PUPILS HOURS <br />{" "}
-          Mondays - Thursdays 7:00am - 3:30pm <br /> Fridays 7:00 - 2:30pm{" "}
-          <br /> <br />
-          GENERAL INFORMATION <br /> All Visitors are Kindly Asked To Sign In At
-          The Security Post & Wait For Further Instructions Before Proceeding
-          Into The School Compound. We Apologize For Any Inconvenience{" "}
+          For over 40 years we have maintained the highest standards of
+          excellence, training over 500 studentsto positively impact our country
+          in the fields of politics, law, engineering, medicine, technology,{" "}
+          education etc
         </p>
       </div>
       {/* section 4 ends here */}
@@ -325,6 +319,7 @@ const Div = styled.div`
     font-style: normal;
     font-weight: 700;
     line-height: 84px; /* 150% */
+    text-transform: capitalize;
   }
 
   .curricular-section p {
@@ -335,7 +330,8 @@ const Div = styled.div`
     font-style: normal;
     font-weight: 400;
     line-height: 28.8px; /* 160% */
-    max-width: 400px;
+    max-width: 420px;
+    text-transform: capitalize;
   }
 
   // .curricular-section img {
@@ -356,7 +352,7 @@ const Div = styled.div`
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.83) 50%, #01263d 100%),
       url("m3.png");
     max-width: 100%;
-    height: 600px;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -364,18 +360,18 @@ const Div = styled.div`
     padding-top: 20px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 100px;
   }
   .text1 {
     justify-content: center;
     color: #228b22;
     font-family: "Fuzzy Bubbles", sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     max-width: 50%;
 
-    height: 400px;
+    height: auto;
   }
 
   .text2 {
@@ -383,11 +379,11 @@ const Div = styled.div`
     font-family: "Baloo Bhai 2", sans-serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 550;
+    font-weight: 400;
     line-height: 28.8px;
-    max-width: 450px;
+    max-width: 500px;
 
-    height: 400px;
+    height: auto;
   }
 
   .icons {

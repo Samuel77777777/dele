@@ -11,13 +11,13 @@ const About = () => {
           <Navbar />
           <br /> <br />
           <div className="logo-container">
-            <img src="logo1.png" alt="" className="logo1" />
+            <img src="logo2.png" alt="" className="logo1" />
 
             <h3 className="pop">
               About Us <hr />
             </h3>
 
-            <img src="logo2.png" alt="" className="logo2" />
+            <img src="logo1.png" alt="" className="logo2" />
           </div>
         </div>
       </div>
@@ -90,36 +90,12 @@ const About = () => {
         </h1>
         <div className="text">
           <p>
-            Scholars will build confidence by using their voice to share and
-            build on each other’s ideas during class discussion using relevant
-            data and/or text references as supporting evidence. (NEPF: 2.3, 3.1,
-            3.2)
-          </p>
-
-          <p>
-            {" "}
-            Teachers will leverage questioning and discussion techniques to
-            promote equity of student voice during classroom discussions and
-            will use formative data captured to inform student feedback that
-            will extend student learning and mastery of standards. (NEPF: 3.1,
-            5.1)
-          </p>
-
-          <p className="third">
-            What is the G.O.L.D standard for professional responsibilities? What
-            is the GOLD level standard for each NEPF indicator?
-          </p>
-
-          <p>
-            Example: GOLD practice: For 5.3: Rapid White Board Exchange <br />{" "}
-            Purpose: is to take the guesswork out of instructional practices.
-            Here are <br />
-            the practices I want to see. <br />
-            School-wide GOLD <br />
-            Instructional GOLD <br />
-            Department GOLD <br />
-            Simple is not trivial. Simple scales <br />
-            Intentional success
+            We believe that a well-rounded learning program is best for our
+            future leaders. Hence, added to our academic courses, we offer
+            learning through: <br /> <br /> Music Department (including our own
+            school band) <br /> <br /> Drama club Athletics <br /> <br />{" "}
+            Literary and Debating Society <br /> <br /> Educational excursions
+            within and outside Sierra Leone
           </p>
         </div>
       </div>
