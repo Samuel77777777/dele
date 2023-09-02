@@ -579,4 +579,34 @@ const Div = styled.div`
       position: relative;
     }
   }
+
+  @media (max-width: 1500px) {
+    .logo2 {
+      position: absolute;
+      right: 50px;
+      bottom: 100px;
+      width: 120px;
+      height: 120px;
+    }
+
+    .logo1 {
+      position: absolute;
+      left: 50px;
+      bottom: 100px;
+      width: 120px;
+      height: 120px;
+      margin-right: 20px;
+    }
+
+    .logo-containers {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      width: 100%;
+      margin-top: 200px;
+      position: relative;
+    }
+  }
 `;

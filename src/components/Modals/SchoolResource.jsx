@@ -26,7 +26,20 @@ const SchoolResource = () => {
               <h6>School Resources</h6>
             </div>
 
-            <p className="modal-text">Unlimited Resources</p>
+            <p className="modal-text">
+              <a href="dele.pdf" download="dele.pdf" className="pdf">
+                School pdf
+              </a>
+              <br />
+              <a href="dele.pdf" download="dele.pdf" className="pdf">
+                School pdf
+              </a>
+              <br />
+
+              <a href="dele.pdf" download="dele.pdf" className="pdf">
+                School pdf
+              </a>
+            </p>
           </div>
         </div>
       )}
