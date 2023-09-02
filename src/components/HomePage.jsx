@@ -438,7 +438,7 @@ const Div = styled.div`
   @media (max-width: 768px) {
     .logo2 {
       position: absolute;
-      right: 50px;
+      right: 10px;
       bottom: 60px;
       width: 120px;
       height: 120px;
@@ -446,7 +446,7 @@ const Div = styled.div`
 
     .logo1 {
       position: absolute;
-      left: 50px;
+      left: 10px;
       bottom: 60px;
       width: 120px;
       height: 120px;
@@ -580,10 +580,10 @@ const Div = styled.div`
     }
   }
 
-  @media (max-width: 1500px) {
+  @media (max-width: 1300px) {
     .logo2 {
       position: absolute;
-      right: 50px;
+      right: 40px;
       bottom: 100px;
       width: 120px;
       height: 120px;
@@ -591,7 +591,7 @@ const Div = styled.div`
 
     .logo1 {
       position: absolute;
-      left: 50px;
+      left: 40px;
       bottom: 100px;
       width: 120px;
       height: 120px;
