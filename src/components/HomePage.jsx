@@ -83,8 +83,8 @@ const HomePage = () => {
         </h1>
         <p>
           Dele preparatory school and Dele Peddle <br /> international school
-          welcomes any student in new <br /> orleans interested in exploring the
-          field of <br />
+          welcomes any student in <br />
+          Sierra Leone interested in exploring the field of <br />
           science, technology, engineering, and math.
         </p>
       </div>
@@ -309,16 +309,16 @@ const Div = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 180px;
   }
 
   .curricular-section h1 {
     color: #fff;
     font-family: Fuzzy Bubbles;
-    font-size: 56px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 700;
-    line-height: 84px; /* 150% */
+    line-height: 60px; /* 150% */
     text-transform: capitalize;
   }
 

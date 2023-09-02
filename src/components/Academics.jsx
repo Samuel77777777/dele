@@ -169,7 +169,7 @@ const Div = styled.div`
     font-family: "Baloo Bhai 2", sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 28.8px;
   }
 
