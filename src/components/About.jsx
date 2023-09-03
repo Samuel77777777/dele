@@ -93,7 +93,7 @@ const About = () => {
             We believe that a well-rounded learning program is best for our
             future leaders. Hence, added to our academic courses, we offer
             learning through: <br /> <br /> Music Department (including our own
-            school band) <br /> <br /> Drama club Athletics <br /> <br />{" "}
+            school band) <br /> <br /> Drama club <br /> Athletics <br /> <br />{" "}
             Literary and Debating Society <br /> <br /> Educational excursions
             within and outside Sierra Leone
           </p>
