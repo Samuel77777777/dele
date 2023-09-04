@@ -98,9 +98,9 @@ const HomePage = () => {
 
         <p className="text2">
           For over 40 years we have maintained the highest standards of
-          excellence, training over 500 studentsto positively impact our country
-          in the fields of politics, law, engineering, medicine, technology,{" "}
-          education etc
+          excellence, training over 500 students to positively impact our
+          country in the fields of politics, law, engineering, medicine,
+          technology, education etc
         </p>
       </div>
       {/* section 4 ends here */}
@@ -325,7 +325,7 @@ const Div = styled.div`
   .curricular-section p {
     color: #faff00;
     text-align: right;
-    font-family: "Baloo Bhai", sans-serif;
+    font-family: "Baloo Bhai 2", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;

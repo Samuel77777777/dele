@@ -39,6 +39,10 @@ const Academics = () => {
 
       {/* section1 end here  */}
 
+      {/* <div className="academics-calendar">
+        <img src="academic.png" />
+      </div> */}
+
       {/* section2 starts here */}
       <div className="section--2">
         <center>
@@ -171,6 +175,15 @@ const Div = styled.div`
     font-style: normal;
     font-weight: 500;
     line-height: 28.8px;
+  }
+
+  .academics-calendar {
+    width: 500px;
+  }
+
+  .academics img {
+    width: 100%;
+    object-fit: contain;
   }
 
   @media (max-width: 769px) {

@@ -28,17 +28,9 @@ const SchoolResource = () => {
 
             <p className="modal-text">
               <a href="dele.pdf" download="dele.pdf" className="pdf">
-                School pdf
+                School Calendar
               </a>
               <br />
-              <a href="dele.pdf" download="dele.pdf" className="pdf">
-                School pdf
-              </a>
-              <br />
-
-              <a href="dele.pdf" download="dele.pdf" className="pdf">
-                School pdf
-              </a>
             </p>
           </div>
         </div>
