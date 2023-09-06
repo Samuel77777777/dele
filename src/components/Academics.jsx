@@ -80,11 +80,11 @@ const Academics = () => {
                   <td className="td">
                     <span className="none"> Column 2, Row 3</span> <br />
                     <span className="left">
-                      27<span className="date">th</span> November 2023
+                      20<span className="date">th</span> November 2023
                     </span>{" "}
                     <br />
                     <spa className="left">
-                      4<span className="date">th</span> December 2023
+                      27<span className="date">th</span> November 2023
                     </spa>
                   </td>
                 </tr>
@@ -95,13 +95,13 @@ const Academics = () => {
                 <tr>
                   <td className="td">Nine Lesson & Carol</td>
                   <td className="td">
-                    17<span className="date">th</span> December 2023
+                    10<span className="date">th</span> December 2023
                   </td>
                 </tr>
                 <tr>
                   <td className="td">Close Down</td>
                   <td className="td">
-                    17<span className="date">th</span> December 2023
+                    10<span className="date">th</span> December 2023
                   </td>
                 </tr>
                 <tr>
