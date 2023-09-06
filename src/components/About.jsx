@@ -63,7 +63,7 @@ const About = () => {
 
       <div className="mission">
         <h1>
-          Mission <br /> Statement
+          Mission <br />
         </h1>
         <p>
           A positive learning environment that creates confident, emotionally
