@@ -28,7 +28,14 @@ const SchoolResource = () => {
 
             <p className="modal-text">
               <a href="dele.pdf" download="dele.pdf" className="pdf">
-                School Calendar
+                School Calendar{" "}
+                <img
+                  src="download.png"
+                  alt=""
+                  width={20}
+                  height={20}
+                  style={{ marginLeft: 20 }}
+                />
               </a>
               <br />
             </p>
