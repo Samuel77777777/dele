@@ -50,7 +50,6 @@ const About = () => {
         <div className="vision">
           <h1>
             Vision <br />
-            Statement
           </h1>
 
           <p>
