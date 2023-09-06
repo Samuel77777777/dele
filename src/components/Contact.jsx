@@ -101,7 +101,7 @@ const Contact = () => {
             Fridays 8:45am - 2:30pm <br /> <br />
             PUPILS HOURS <br />
             Mondays - Thursdays 7:00am - 3:30pm <br />
-            Fridays 7:00 - 2:30pm
+            Fridays 7:00am - 2:30pm
           </p>
         </div>
 
@@ -141,7 +141,12 @@ const Contact = () => {
 
       {/* map section start here */}
       <div className="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d7892.448472327897!2d-13.235076057286763!3d8.477564077895645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0xf04c3a83ee08c83%3A0x540553ae55e4914d!2sAllen%20St%2C%20Freetown!3m2!1d8.477553499999999!2d-13.2299262!4m0!5e0!3m2!1sen!2ssl!4v1692668547336!5m2!1sen!2ssl"></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.82024810553!2d-13.159576489081328!3d8.419307398198956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xf04e7ec0622a711%3A0x4c7986b9301be505!2sDele-Peddle%20Learning%20Center!5e0!3m2!1sen!2ssl!4v1694004956942!5m2!1sen!2ssl"
+          width="600"
+          height="450"
+          loading="lazy"
+        ></iframe>
       </div>
 
       {/* map section end here */}
