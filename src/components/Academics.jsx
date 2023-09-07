@@ -31,11 +31,11 @@ const Academics = () => {
       <main>
         <div className="section--1">
           <center>
-            Dele Preparatory School and Dele Peddle International High School
-            will be embracing, teaching about, <br /> modeling and expecting the
-            following CORE <br /> VALUES to be infused throughout the building.{" "}
-            <br /> Please help us model & teach these from home! It takes a
-            village to raise a child! Let’s work to strengthen our village!.
+            Dele Preparatory School and Dele Peddle International High School,
+            will be embracing teachings and modeling our CORE VALUES and expect
+            them to be infused throughout the building. <br /> <br /> Please
+            help us model & teach these from home! It takes a village to raise a
+            child! Let’s work to strengthen our village!
           </center>
         </div>
 
@@ -149,15 +149,13 @@ const Academics = () => {
           <center>
             <h1 className="section--2-head">Performance Plans</h1>
             <span>
-              Be humble (Conscientious) <br />
-              Congratulate and uplift other (cooperation) <br />
-              Find solutions, not excuses (Honetly) <br />
-              Always say excuse me, please, and thank you (Respect) <br />
-              Mistakes are stepping stones for success (confindence) <br />
-              Always come to class prepared to learn (Integrity) <br />
-              Be an active listener (Empathy) <br />
-              Practice makes progress (Perserverance) <br />
-              Be a Dynamic greeter (Kindness)
+              Be humble (Conscientious) <br /> Congratulate and uplift other
+              (cooperation) <br /> Find solutions, not excuses (Honesty) <br />{" "}
+              Always say Excuse me, Please, and Thank you (Respect) <br />
+              Mistakes are stepping stones to success (Confidence) <br /> Always
+              come to class prepared to learn (Integrity) <br /> Be an active
+              listener (Empathy) <br /> Practice makes progress (Perseverance){" "}
+              <br /> Be a Dynamic greeter (Kindness)
             </span>
           </center>
         </div>
@@ -263,7 +261,7 @@ const Div = styled.div`
 
   .section--2 span {
     display: flex;
-    max-width: 400px;
+    max-width: 500px;
     flex-direction: column;
     align-items: center;
     // gap: -0.2px;

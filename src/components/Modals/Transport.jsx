@@ -27,8 +27,9 @@ const Transport = () => {
             </div>
 
             <p className="modal-text">
-              Optional. 4 buses running. Route - Upgun to the school and Rokel
-              to the school
+              Optional <br />
+              4 buses running <br />
+              Route - Upgun to the school and Rokel to the school
             </p>
           </div>
         </div>

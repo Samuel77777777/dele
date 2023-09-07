@@ -66,9 +66,9 @@ const About = () => {
           Mission <br />
         </h1>
         <p>
-          A positive learning environment that creates confident, emotionally
-          intelligent scholars who own their learning, solve problems and can
-          communicate their thoughts and solutions effectively.{" "}
+          A positive learning environment that creates confident and emotionally
+          intelligent scholars who own their learning, solve problems, and
+          communicate their thoughts and solutions effectively.
         </p>
       </div>
 
@@ -258,7 +258,7 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
     font-style: normal;
     font-weight: 700;
     // border:1px solid blue;
-    margin-right:140px;
+    margin-right:190px;
     text-align:left;
     max-width:400px;
 
@@ -273,7 +273,7 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
     color: white;
     justify-content: center;
     align-items: center;
-    gap: 230px;
+    gap: 80px;
   clip-path: polygon(0 14%, 100% 10%, 100% 100%, 0 87%);
 
  
@@ -293,11 +293,11 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
 
   .extra {
     display: flex;
-    max-width: 1920px;
+    max-width: 100%;
     padding: 100px 300px;
     justify-content: center;
     align-items: cener;
-    gap: 230px;
+    gap: 200px;
   }
 
   .pop{
