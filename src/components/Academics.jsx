@@ -32,7 +32,7 @@ const Academics = () => {
         <div className="section--1">
           <center>
             Dele Preparatory School and Dele Peddle International High School,
-            will be embracing teachings and modeling our CORE VALUES and expect
+            will be embracing teachings and modeling of our CORE VALUES and expect
             them to be infused throughout the building. <br /> <br /> Please
             help us model & teach these from home! It takes a village to raise a
             child! Let’s work to strengthen our village!
